@@ -22,6 +22,12 @@ body {
     min-height: 100vh;
 }
 
+.malovich,
+.lines,
+.more-lines {
+    display: none;
+}
+
 .malovich {
     position: absolute;
     top: 22vh;
@@ -46,21 +52,41 @@ body {
 }
 
 h1 {
+    margin-top: 0;
     margin-left: 20px;
-    font-size: 50px;
-    max-width: 600px;
-    padding-top: 10%;
+    font-size: 53px;
+    max-width: 650px;
 }
 
-p {
+p, a {
     background-color: #FFF;
     padding: 10px 20px 10px 0;
     font-size: 15px;
     font-family: 'Inconsolata';
     line-height: 2;
-    margin-left: 140px;
     max-width: 450px;
 
+}
+
+p {
+    margin-bottom: 0;
+    margin-left: 50px;
+}
+
+a {
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.contact-links {
+    padding-left: 2rem;
+}
+
+.contact-links a {
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    position: relative;
 }
 
 h1,
@@ -75,7 +101,24 @@ p {
 }
 
 .more-lines {
+    -webkit-filter: grayscale(100%);
     position: absolute;
     top: 17vh;
     left: 29%;
+}
+
+@media(min-width: 550px) {
+    .contact-links {
+        padding-left: 19rem;
+    }
+    p {
+        padding: 0px 20px 10px 0;
+        margin-left: 140px;
+    }
+    .malovich,
+    .lines,
+    .more-lines {
+        display: inline;
+    }
+
 }
