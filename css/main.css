@@ -50,6 +50,7 @@ body {
 }
 
 .hero-container {
+    animation: fadein 2s;
     max-width: 800px;
 }
 

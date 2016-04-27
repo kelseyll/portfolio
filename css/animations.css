@@ -5,16 +5,16 @@ April 2016
 
 /* Animations ----------------------------------- */
 
-/*Greyscale Animation*/
-@-webkit-keyframes grayscale {
-    0%    { -webkit-filter: grayscale(0%); }
-    30%   { -webkit-filter: grayscale(100%);}
+/*Simple Fade In Animation*/
+@-webkit-keyframes fadein {
+    0%    { opacity: 0; }
+    100%  { opacity: 1; }
 }
-@-moz-keyframes grayscale {
-    0%    { -webkit-filter: grayscale(0%);  }
-    30%   { -webkit-filter: grayscale(100%);}
+@-moz-keyframes fadein {
+    0%    { opacity: 0; }
+    100%  { opacity: 1; }
 }
-@keyframes grayscale {
-    0%    { -webkit-filter: grayscale(0%); }
-    30%   { -webkit-filter: grayscale(100%);}
+@keyframes fadein {
+    0%    { opacity: 0; }
+    100%  { opacity: 1; }
 }
