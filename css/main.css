@@ -88,7 +88,7 @@ a {
 
 .contact-links a {
     background-color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
     color: #000;
     position: relative;
     font-weight: 700;
@@ -118,12 +118,12 @@ p {
 
 @media(min-width: 550px) {
     .contact-links {
-        padding-left: 15rem;
+        padding-left: 80px;
     }
     p {
         padding: 0px 0px 10px 0;
         margin-left: 60px;
-        max-width: 480px;
+        max-width: 460px;
         font-size: 15px;
     }
     a {
