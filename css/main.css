@@ -23,7 +23,7 @@ body {
     position: relative;
     z-index: -99;
     margin: 0 auto;
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .hero-container h1 {
