@@ -65,6 +65,10 @@ p, a {
     text-decoration: line-through;
 }
 
+.contact-links a:visited {
+    text-decoration: line-through;
+}
+
 .lines {
     position: absolute;
 }
