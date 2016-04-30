@@ -27,6 +27,7 @@ body {
 }
 
 .hero-container h1 {
+    font-weight: 300;
     font-size: 28px;
     text-align: center;
 }
