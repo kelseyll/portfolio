@@ -1,112 +1,48 @@
-html {
+html, body {
     margin: 0;
     padding: 0;
 }
 
+/* Typography ---------- */
 body {
-    font-family: "heading", "cursive";
-    margin: 0;
-    min-height: 100vh;
+    font-family: "Inconsolata", "Helvetica Neue", sans-serif;;
 }
 
-.hero-container {
-    padding: 10% 20px 30px 20px;
-    display: block;
-    margin: 0 auto;
-    animation: fadein 2s;
-    max-width: 600px;
+h1 {
+    font-family: "heading", "Helvectica Neue", serif;
+    font-size: 63px;
 }
 
-.hero-container img {
-    display: block;
-    padding-bottom: 20px;
-    position: relative;
-    z-index: -99;
-    margin: 0 auto;
-    max-width: 180px;
-}
-
-.hero-container h1 {
-    font-weight: 300;
-    font-size: 28px;
-    text-align: center;
-}
-
-.hero-container p {
-    margin-bottom: 30px;
+p {
     font-size: 14px;
 }
 
-p, a {
+.hero-container h1 {
+    padding-top: 200px;
+}
+
+.hero-container p {
+    display: block;
+    background-color: #FFF;
+    margin: 0 auto 0 55%;
+    padding: 3px 8px;
+    max-width: 290px;
+    text-align: left;
+    line-height: 1.9;
+}
+
+/* Layout ---------- */
+
+.hero-container {
     text-align: center;
-    font-family: 'Inconsolata';
-    line-height: 2;
 }
 
-.contact-links {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-.contact-links a {
-    font-size: 13px;
-    text-decoration: none;
-    color: #000;
-    padding: 0 8px;
-    font-family: "Helvetica Neue";
-    font-weight: 400;
-    font-style: italic;
-    text-transform: uppercase;
-    display: inline;
-    letter-spacing: 0.5px;
-}
-
-.contact-links a:hover {
-    text-decoration: line-through;
-}
-
-.contact-links a:visited {
-    text-decoration: line-through;
-}
-
-.lines {
+.hero-pink-rectangle {
+    background-color: #FFE9CD;
+    height: 600px;
+    width: 800px;
     position: absolute;
-}
-
-.more-lines {
-    -webkit-filter: grayscale(100%);
-    position: absolute;
-}
-
-.oops a,
-.oops h1 {
-    font-size: 40px;
-    font-family: "DomaineDisplay-Semibold";
-}
-
-.oops a {
-    margin : 0;
-    padding: 0;
-    color: blue;
-    animation: greyscale 3s infinite;
-    -webkit-animation: greyscale 3s infinite;
-}
-
-@media (min-width: 550px) {
-    .hero-container {
-        padding: 125px 20px 30px 20px;
-    }
-    .hero-container h1 {
-        font-size: 46px;
-    }
-    .hero-container img {
-        max-width: 300px;
-    }
-}
-
-@media (min-width: 750px) {
-    .hero-container h1 {
-        font-size: 53px;
-    }
+    top: 0;
+    right: 50%;
+    z-index: -99;
 }
