@@ -46,3 +46,11 @@ p {
     right: 50%;
     z-index: -99;
 }
+
+.left-hero-image {
+    max-width: 300px;
+    position: absolute;
+    left: 30vh;
+    top: 30vh;
+    z-index: -1;
+}
