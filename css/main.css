@@ -18,48 +18,70 @@ p {
 }
 
 .hero-container h1 {
-    padding-top: 200px;
+    padding-top: 190px;
 }
 
 .hero-container p {
-    display: block;
     background-color: #FFF;
-    margin: 0 auto 0 55%;
-    padding: 3px 8px;
-    max-width: 290px;
-    text-align: left;
+    display: block;
     line-height: 1.9;
+    margin: 0 auto 0 58%;
+    max-width: 290px;
+    padding: 3px 4px 3px 8px;
+    text-align: left;
 }
 
 /* Layout ---------- */
 
+.outer-container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
 .hero-container {
     text-align: center;
+    animation: fadein 3s;
 }
 
 .hero-pink-rectangle {
     background-color: #FFE9CD;
-    height: 600px;
-    width: 800px;
     position: absolute;
     top: 0;
-    right: 50%;
+    left: 0;
+    height: 100vh;
+    width: 800px;
     z-index: -99;
 }
 
 .left-hero-image {
     max-width: 310px;
     position: absolute;
-    left: 8vw;
-    top: 14vw;
+    margin: auto;
+    top: -10%;
+    bottom: 0;
+    right: 65%;
+    left: 0;
     z-index: -1;
 }
 
 .center-hero-image {
     max-width: 455px;
     position: absolute;
-    left: 24vw;
-    top: 22vw;
+    margin: auto;
+    top: 0;
+    bottom: -20%;
+    right: 14%;
+    left: 0;
     z-index: -1;
 }
+
+.right-hero-image {
+    max-width: 373px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 30%;
+    right: 0;
+    left: 60%;
+    z-index: -1;
 }
