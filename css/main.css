@@ -48,9 +48,18 @@ p {
 }
 
 .left-hero-image {
-    max-width: 300px;
+    max-width: 310px;
     position: absolute;
-    left: 30vh;
-    top: 30vh;
+    left: 8vw;
+    top: 14vw;
     z-index: -1;
+}
+
+.center-hero-image {
+    max-width: 455px;
+    position: absolute;
+    left: 24vw;
+    top: 22vw;
+    z-index: -1;
+}
 }
