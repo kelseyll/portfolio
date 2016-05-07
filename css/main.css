@@ -18,7 +18,10 @@ p {
 }
 
 .hero-container h1 {
-    padding-top: 140px;
+    display: inline-block;
+    padding: 0 8px 4px 8px;
+    margin-top: 140px;
+    background-color: #FFF;
 }
 
 .hero-paragraph {
@@ -27,7 +30,7 @@ p {
     line-height: 1.9;
     margin: 0 auto 0 58%;
     max-width: 290px;
-    padding: 3px 4px 3px 8px;
+    padding: 3px 8px 3px 8px;
     text-align: left;
 }
 
@@ -44,7 +47,7 @@ p {
 }
 
 header {
-    padding: 50px 0 0 50px;
+    padding: 30px 0 0 50px;
 }
 
 header p {
@@ -97,7 +100,7 @@ header p {
 .light-image {
     position: absolute;
     margin: auto;
-    top: 0;
+    top: -5%;
     left: 0;
     right: 0;
 }
