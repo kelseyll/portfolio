@@ -18,10 +18,10 @@ p {
 }
 
 .hero-container h1 {
-    padding-top: 190px;
+    padding-top: 140px;
 }
 
-.hero-container p {
+.hero-paragraph {
     background-color: #FFF;
     display: block;
     line-height: 1.9;
@@ -43,13 +43,21 @@ p {
     animation: fadein 3s;
 }
 
+header {
+    padding: 50px 0 0 50px;
+}
+
+header p {
+    text-align: left;
+}
+
 .hero-pink-rectangle {
     background-color: #FFE9CD;
     position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
-    width: 800px;
+    width: 50vw;
     z-index: -99;
 }
 
@@ -59,7 +67,7 @@ p {
     margin: auto;
     top: -10%;
     bottom: 0;
-    right: 65%;
+    right: 55%;
     left: 0;
     z-index: -1;
 }
@@ -68,8 +76,8 @@ p {
     max-width: 455px;
     position: absolute;
     margin: auto;
-    top: 0;
-    bottom: -20%;
+    top: 25%;
+    bottom: 0;
     right: 14%;
     left: 0;
     z-index: -1;
@@ -82,6 +90,23 @@ p {
     top: 0;
     bottom: 30%;
     right: 0;
-    left: 60%;
+    left: 50%;
     z-index: -1;
+}
+
+.light-image {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.diamonds-image {
+    position: absolute;
+    margin: auto;
+    top: 55%;
+    bottom: 0;
+    left: 0;
+    right: 40%;
 }
