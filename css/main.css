@@ -37,7 +37,14 @@ a {
 .hero-container h1 {
     display: inline-block;
     padding: 0 8px 4px 8px;
-    margin-top: 160px;
+    margin-top: 21vh;
+    background-color: #FFF;
+}
+
+@media (min-height: 800px) {
+    .hero-container h1 {
+        margin-top: 28vh;
+    }
 }
 
 .hero-paragraph {
