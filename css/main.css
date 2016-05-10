@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-family: "heading", "Helvectica Neue", serif;
-    font-size: 63px;
+    font-size: 58px;
 }
 
 p {
@@ -100,7 +100,7 @@ header p {
 }
 
 .center-hero-image {
-    max-width: 370px;
+    max-width: 400px;
     position: absolute;
     margin: auto;
     top: 200px;
@@ -111,7 +111,7 @@ header p {
 }
 
 .right-hero-image {
-    max-width: 320px;
+    max-width: 340px;
     position: absolute;
     margin: auto;
     top: 0;
@@ -125,10 +125,29 @@ header p {
     max-width: 56px;
     position: absolute;
     margin: auto;
-    top: -50px;
+    top: -36px;
     left: 0;
-    right: 100px;
+    right: 0;
 }
+
+.vine-image {
+    display: none;
+    max-width: 320px;
+    position: absolute;
+    margin: auto;
+    top: -10px;
+    left: 0;
+    right: 400px;
+    z-index: -1;
+}
+
+
+@media (min-height: 815px) {
+    .vine-image {
+        display: inherit;
+    }
+}
+
 
 .diamonds-image {
     position: absolute;
