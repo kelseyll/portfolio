@@ -34,6 +34,14 @@ a {
     color: #000;
 }
 
+i {
+    width: 17px;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    float: right;
+}
+
 .hero-container h1 {
     display: inline-block;
     padding: 0 8px 4px 8px;
@@ -183,10 +191,6 @@ header p {
     float: right;
 }
 
-.work-items-container i {
-    padding-left: 30px;
-}
-
 .work-items-container a:hover {
     background-color: #eee;
 }
@@ -206,6 +210,7 @@ footer {
     left: 38%;
     display: inline-block;
     z-index: 99;
+    bottom: -3px;
 }
 
 
@@ -221,7 +226,7 @@ footer {
 .footer-left-rectangle {
     background-color: #EEE;
     position: absolute;
-    bottom: -30px;
+    bottom: -33px;
     left: 0;
     height: 180px;
     width: 54%;
@@ -230,12 +235,14 @@ footer {
 .footer-text-container {
     max-width: 900px;
     position: relative;
+    overflow: auto;
     bottom: 300px;
     padding: 40px 20px;
     margin: 0 auto;
 }
 
 .footer-text-container ul {
+    margin-top: 35px;
     display: inline-block;
     float: right;
     left: 280px;
@@ -243,11 +250,13 @@ footer {
 }
 
 .footer-mailto {
-    display: block;
+    margin-top: 180px;
     width: 50%;
+    top: 176px;
+    position: relative;
 }
 
-.footer-text-container a {
+.ntainer a {
     display: inline-block;
 }
 
@@ -263,9 +272,4 @@ footer {
     max-width: 180px;
     text-align: left;
     display: block;
-}
-
-.footer-text-container i {
-    padding-left: 40px;
-    float: right;
 }
