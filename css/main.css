@@ -203,8 +203,9 @@ footer {
 .footer-image {
     position: relative;
     display: inherit;
-    left: 44%;
+    left: 38%;
     display: inline-block;
+    z-index: 99;
 }
 
 
@@ -215,7 +216,6 @@ footer {
     right: 0;
     height: 300px;
     width: 50%;
-    z-index: -99;
 }
 
 .footer-left-rectangle {
@@ -225,25 +225,24 @@ footer {
     left: 0;
     height: 180px;
     width: 54%;
-    z-index: -99;
 }
 
 .footer-right-rectangle ul {
-    position: absolute;
-    bottom: 25%;
-    right: 35%;
+    position: relative;
+    left: 300px;
+    top: 70px;
 }
 
 .footer-left-rectangle a {
     position: absolute;
     display: inline-block;
-    bottom: 40%;
+    bottom: 45%;
     left: 35%;
 }
 
 .footer-right-rectangle li {
     list-style: none;
-    margin: 10px 0;
+    margin: 15px 0;
     cursor: pointer;
 }
 
