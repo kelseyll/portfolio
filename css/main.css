@@ -187,12 +187,38 @@ header p {
     list-style: none;
 }
 
+.work-items-container a:hover {
+    background-color: #eee;
+}
+
+.work-items-container-span-hover {
+    -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+    font-family: "heading", "Helvectica Neue", serif;
+    font-size: 25px;
+}
+
 .work-items-container li span:nth-child(2n) {
+    display: none;
+    margin-left: 350px;
+    top: -4px;
+    position: relative;
+}
+
+.work-items-container-second-span-hover {
+    display: inline !important;
+}
+
+.work-items-container li span:nth-child(3n) {
     float: right;
 }
 
-.work-items-container a:hover {
-    background-color: #eee;
+.work-items-container-third-span-hover {
+    padding-top: 8px;
+}
+
+.work-items-container-li-hover {
+    padding: 32px 20px !important;
 }
 
 /* Footer ---------- ---------- ---------- */
