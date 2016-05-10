@@ -227,31 +227,45 @@ footer {
     width: 54%;
 }
 
-.footer-right-rectangle ul {
+.footer-text-container {
+    max-width: 900px;
     position: relative;
-    left: 300px;
+    bottom: 300px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+.footer-text-container ul {
+    display: inline-block;
+    float: right;
+    left: 280px;
     top: 70px;
 }
 
-.footer-left-rectangle a {
-    position: absolute;
-    display: inline-block;
-    bottom: 45%;
-    left: 35%;
+.footer-mailto {
+    display: block;
+    width: 50%;
 }
 
-.footer-right-rectangle li {
-    list-style: none;
+.footer-text-container a {
+    display: inline-block;
+}
+
+.footer-text-container li {
+    text-align: center;
+    min-width: 110px;
     margin: 15px 0;
     cursor: pointer;
+    list-style: none;
 }
 
-.footer-right-rectangle a {
-    min-width: 150px;
-    display: inline-block;
+.footer-text-container ul a {
+    max-width: 180px;
+    text-align: left;
+    display: block;
 }
 
-.footer-right-rectangle i {
+.footer-text-container i {
     padding-left: 40px;
     float: right;
 }
