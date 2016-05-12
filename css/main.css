@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-family: "heading", "Helvectica Neue", serif;
-    font-size: 58px;
+    font-size: 63px;
 }
 
 p {
@@ -46,7 +46,6 @@ i {
     display: inline-block;
     padding: 0 8px 4px 8px;
     margin-top: 21vh;
-    background-color: #FFF;
 }
 
 @media (min-height: 815px) {
@@ -56,7 +55,6 @@ i {
 }
 
 .hero-paragraph {
-    background-color: #FFF;
     display: block;
     line-height: 1.9;
     margin: 0 auto 0 58%;
@@ -85,8 +83,8 @@ header p {
     text-align: left;
 }
 
-.hero-pink-rectangle {
-    background-color: #FFE9CD;
+.hero-left-rectangle {
+    background-color: #CAE6E0;
     position: absolute;
     top: 0;
     left: 0;
@@ -107,7 +105,6 @@ header p {
 }
 
 .center-hero-image {
-    max-width: 400px;
     position: absolute;
     margin: auto;
     top: 220px;
@@ -118,7 +115,6 @@ header p {
 }
 
 .right-hero-image {
-    max-width: 340px;
     position: absolute;
     margin: auto;
     top: 20px;
@@ -128,41 +124,13 @@ header p {
     z-index: -1;
 }
 
-.light-image {
-    max-width: 56px;
+.lamp-image {
+    max-width: 230px;
     position: absolute;
     margin: auto;
     top: -36px;
     left: 0;
     right: 0;
-}
-
-.vine-image {
-    display: none;
-    max-width: 320px;
-    position: absolute;
-    margin: auto;
-    top: -10px;
-    left: 0;
-    right: 400px;
-    z-index: -1;
-}
-
-
-@media (min-height: 815px) {
-    .vine-image {
-        display: inherit;
-    }
-}
-
-
-.diamonds-image {
-    position: absolute;
-    margin: auto;
-    top: 400px;
-    bottom: 0;
-    left: 0;
-    right: 590px;
 }
 
 /* Work ---------- ---------- ---------- */
@@ -241,7 +209,7 @@ footer {
 
 
 .footer-right-rectangle {
-    background-color: #FFE9CD;
+    background-color: #CAE6E0;
     position: absolute;
     bottom: -33px;
     right: 0;
@@ -250,7 +218,7 @@ footer {
 }
 
 .footer-left-rectangle {
-    background-color: #EEE;
+    background-color: #FFE9CD;
     position: absolute;
     bottom: -33px;
     left: 0;
