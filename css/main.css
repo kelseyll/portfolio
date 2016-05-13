@@ -173,7 +173,7 @@ header p {
     position: relative;
     top: -4px;
     margin-left: 350px;
-    animation: 0.5s fadeInSlideLeft forwards;
+    animation: 0.5s slideLeft forwards;
 }
 
 .work-items-container-second-span-hover {

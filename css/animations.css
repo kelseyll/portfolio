@@ -31,19 +31,6 @@ April 2016
 }
 
 /*Simple Slide Left Animation*/
-@-webkit-keyframes fadeInSlideLeft {
-    100%  {-webkit-transform: translateX(10px);}
-}
-@-moz-keyframes fadeInSlideLeft {
-    100%  {-moz-transform: translateX(10px);}
-}
-@keyframes fadeInSlideLeft {
-    0%    {opacity: 0;}
-    100%  {transform: translateX(10px);
-           opacity: 1;}
-}
-
-/*Simple Slide Left Animation*/
 @-webkit-keyframes slideRight {
     0%  {-webkit-transform: translateX(10px);}
 
