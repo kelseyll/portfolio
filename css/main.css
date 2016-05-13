@@ -274,6 +274,18 @@ footer {
 
 /* Animations ----------------------------------- */
 
-.work-item-mouseLeave-slideRight {
-    animation: slideRight 0.8s forwards;
+.slideLeft {
+    animation: slideLeft 0.5s forwards;
+}
+
+.slideRight {
+    animation: slideRight 0.5s forwards;
+}
+
+.slideLeftSm {
+    animation: slideLeftSm 0.5s forwards;
+}
+
+.slideRightSm {
+    animation: slideRightSm 0.5s forwards;
 }
