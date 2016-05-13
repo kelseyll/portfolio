@@ -1,4 +1,4 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,8 @@ html, body {
     -moz-box-sizing: border-box;
 }
 
-/* Typography ---------- ---------- ---------- */
+/* Typography ----------------------------------- */
+
 body {
     font-family: "Inconsolata", "Helvetica Neue", sans-serif;;
 }
@@ -63,7 +64,7 @@ i {
     text-align: left;
 }
 
-/* Layout ---------- ---------- ---------- */
+/* Layout ----------------------------------- */
 
 .outer-container {
     margin: 0 auto;
@@ -133,10 +134,11 @@ header p {
     right: 0;
 }
 
-/* Work ---------- ---------- ---------- */
+/* Work Section ----------------------------------- */
 
 .work-items-container h1 {
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 35px;
     text-align: center;
 }
 
@@ -156,25 +158,27 @@ header p {
 }
 
 .work-items-container a:hover {
-    background-color: #eee;
+    background-color: #EEE;
 }
 
 .work-items-container-span-hover {
+    display: inline-block;
     font-family: "heading", "Helvectica Neue", serif;
     font-size: 25px;
-    display: inline-block;
+    animation: slideLeft 0.8s forwards;
 }
 
 .work-items-container li span:nth-child(2n) {
     display: none;
-    margin-left: 350px;
-    top: -4px;
     position: relative;
+    top: -4px;
+    margin-left: 350px;
+    animation: 0.5s fadeInSlideLeft forwards;
 }
 
 .work-items-container-second-span-hover {
-    animation: slideLeft 0.4s forwards;
     display: inline-block !important;
+    animation: slideLeft 0.8s forwards;
 }
 
 .work-items-container li span:nth-child(3n) {
@@ -182,7 +186,7 @@ header p {
 }
 
 .work-items-container-third-span-hover {
-    animation: slideLeft 0.4s forwards;
+    animation: slideLeft 0.8s forwards;
     padding-top: 8px;
 }
 
@@ -190,18 +194,17 @@ header p {
     padding: 32px 20px !important;
 }
 
-/* Footer ---------- ---------- ---------- */
+/* Footer ----------------------------------- */
 
 footer {
+    display: block;
     margin-top: 200px;
     height: 200px;
     position: relative;
-    display: block;
 }
 
 .footer-image {
     position: relative;
-    display: inherit;
     left: 42%;
     display: inline-block;
     z-index: 99;
@@ -237,18 +240,18 @@ footer {
 }
 
 .footer-text-container ul {
-    margin-top: 35px;
     display: inline-block;
+    margin-top: 35px;
     float: right;
     left: 280px;
     top: 70px;
 }
 
 .footer-mailto {
+    position: relative;
     margin-top: 180px;
     width: 50%;
     top: 176px;
-    position: relative;
 }
 
 .ntainer a {
@@ -269,7 +272,8 @@ footer {
     display: block;
 }
 
-/* Animations ---------- ---------- ---------- */
-.work-item-mouseLeave-animation {
-    animation: slideRight 0.4s forwards;
+/* Animations ----------------------------------- */
+
+.work-item-mouseLeave-slideRight {
+    animation: slideRight 0.8s forwards;
 }
