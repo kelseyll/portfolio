@@ -41,6 +41,23 @@ April 2016
     0%  {transform: translateX(10px);}
 }
 
+/*Simple Slide Down Animation*/
+@-webkit-keyframes slideDown {
+    0%  {-webkit-transform: translateY(-5px);}
+    50%  {-webkit-transform: translateY(5px);}
+    100%  {-webkit-transform: translateY(-5px);}
+}
+@-moz-keyframes slideDown {
+    0%  {-moz-transform: translateY(-5px);}
+    50%  {-webkit-transform: translateY(5px);}
+    100%  {-webkit-transform: translateY(-5px);}
+}
+@keyframes slideDown {
+    0%  {transform: translateY(-5px);}
+    50%  {-webkit-transform: translateY(5px);}
+    100%  {-webkit-transform: translateY(-5px);}
+}
+
 /* Simple Small Slide Left Animation*/
 @-webkit-keyframes slideLeftSm {
     100%  {-webkit-transform: translateX(2px);}
