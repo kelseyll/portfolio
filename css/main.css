@@ -160,10 +160,9 @@ header p {
 }
 
 .work-items-container-span-hover {
-    -webkit-animation: fadeInLeft 1s;
-    animation: fadeInLeft 1s;
     font-family: "heading", "Helvectica Neue", serif;
     font-size: 25px;
+    display: inline-block;
 }
 
 .work-items-container li span:nth-child(2n) {
@@ -174,7 +173,8 @@ header p {
 }
 
 .work-items-container-second-span-hover {
-    display: inline !important;
+    animation: slidedown 0.4s forwards;
+    display: inline-block !important;
 }
 
 .work-items-container li span:nth-child(3n) {
@@ -182,6 +182,7 @@ header p {
 }
 
 .work-items-container-third-span-hover {
+    animation: slidedown 0.4s forwards;
     padding-top: 8px;
 }
 
@@ -201,7 +202,7 @@ footer {
 .footer-image {
     position: relative;
     display: inherit;
-    left: 38%;
+    left: 42%;
     display: inline-block;
     z-index: 99;
     bottom: -3px;

@@ -20,36 +20,24 @@ April 2016
 }
 
 /*Simple Fade In Animation*/
-@-webkit-keyframes slideleft {
+@-webkit-keyframes slidedown {
+    100%  {-webkit-transform: translateX(15px);}
+}
+@-moz-keyframes slidedown {
+    100%  {-moz-transform: translateX(15px);}
+}
+@keyframes slidedown {
+    100%  {transform: translateX(15px);}
+}
+
+/*Simple Fade In Animation*/
+@-webkit-keyframes widthExpand {
     0%    { opacity: 0; }
     100%  { opacity: 1; }
 }
-@-moz-keyframes slideleft {
+@-moz-keyframes widthExpand {
     0%    { opacity: 0; }
     100%  { opacity: 1; }
 }
-@keyframes slideleft {
-    0%    { opacity: 0; }
-    100%  { opacity: 1; }
-}
-
-
-@-webkit-keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInLeft {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+@keyframes widthExpand {
 }
