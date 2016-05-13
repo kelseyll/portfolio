@@ -72,7 +72,7 @@ i {
 .hero-container {
     height: 100vh;
     text-align: center;
-    animation: fadein 3s;
+    animation: fadeIn 3s;
 }
 
 header {
@@ -173,7 +173,7 @@ header p {
 }
 
 .work-items-container-second-span-hover {
-    animation: slidedown 0.4s forwards;
+    animation: slideLeft 0.4s forwards;
     display: inline-block !important;
 }
 
@@ -182,7 +182,7 @@ header p {
 }
 
 .work-items-container-third-span-hover {
-    animation: slidedown 0.4s forwards;
+    animation: slideLeft 0.4s forwards;
     padding-top: 8px;
 }
 
@@ -267,4 +267,9 @@ footer {
     max-width: 180px;
     text-align: left;
     display: block;
+}
+
+/* Animations ---------- ---------- ---------- */
+.work-item-mouseLeave-animation {
+    animation: slideRight 0.4s forwards;
 }

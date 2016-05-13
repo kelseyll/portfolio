@@ -6,38 +6,38 @@ April 2016
 /* Animations ----------------------------------- */
 
 /*Simple Fade In Animation*/
-@-webkit-keyframes fadein {
+@-webkit-keyframes fadeIn {
     0%    { opacity: 0; }
     100%  { opacity: 1; }
 }
-@-moz-keyframes fadein {
+@-moz-keyframes fadeIn {
     0%    { opacity: 0; }
     100%  { opacity: 1; }
 }
-@keyframes fadein {
+@keyframes fadeIn {
     0%    { opacity: 0; }
     100%  { opacity: 1; }
 }
 
-/*Simple Fade In Animation*/
-@-webkit-keyframes slidedown {
+/*Simple Slide Left Animation*/
+@-webkit-keyframes slideLeft {
     100%  {-webkit-transform: translateX(15px);}
 }
-@-moz-keyframes slidedown {
+@-moz-keyframes slideLeft {
     100%  {-moz-transform: translateX(15px);}
 }
-@keyframes slidedown {
+@keyframes slideLeft {
     100%  {transform: translateX(15px);}
 }
 
-/*Simple Fade In Animation*/
-@-webkit-keyframes widthExpand {
-    0%    { opacity: 0; }
-    100%  { opacity: 1; }
+/*Simple Slide Left Animation*/
+@-webkit-keyframes slideRight {
+    0%  {-webkit-transform: translateX(15px);}
+
 }
-@-moz-keyframes widthExpand {
-    0%    { opacity: 0; }
-    100%  { opacity: 1; }
+@-moz-keyframes slideRight {
+    0%  {-moz-transform: translateX(15px);}
 }
-@keyframes widthExpand {
+@keyframes slideRight {
+    0%  {transform: translateX(15px);}
 }
