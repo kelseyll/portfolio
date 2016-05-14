@@ -42,20 +42,20 @@ April 2016
 }
 
 /*Simple Slide Down Animation*/
-@-webkit-keyframes slideDown {
-    0%  {-webkit-transform: translateY(-5px);}
-    50%  {-webkit-transform: translateY(5px);}
-    100%  {-webkit-transform: translateY(-5px);}
+@-webkit-keyframes slideUpAndDown {
+    0%  {-webkit-transform: translateY(-7px);}
+    50%  {-webkit-transform: translateY(7px);}
+    100%  {-webkit-transform: translateY(-7px);}
 }
-@-moz-keyframes slideDown {
-    0%  {-moz-transform: translateY(-5px);}
-    50%  {-webkit-transform: translateY(5px);}
-    100%  {-webkit-transform: translateY(-5px);}
+@-moz-keyframes slideUpAndDown {
+    0%  {-moz-transform: translateY(-7px);}
+    50%  {-webkit-transform: translateY(7px);}
+    100%  {-webkit-transform: translateY(-7px);}
 }
-@keyframes slideDown {
-    0%  {transform: translateY(-5px);}
-    50%  {-webkit-transform: translateY(5px);}
-    100%  {-webkit-transform: translateY(-5px);}
+@keyframes slideUpAndDown {
+    0%  {transform: translateY(-7px);}
+    50%  {-webkit-transform: translateY(7px);}
+    100%  {-webkit-transform: translateY(-7px);}
 }
 
 /* Simple Small Slide Left Animation*/

@@ -60,7 +60,7 @@ i {
 .hero-paragraph {
     display: block;
     line-height: 1.9;
-    margin: 0 auto 0 58%;
+    margin: 30px auto 0 58%;
     max-width: 290px;
     padding: 3px 0 3px 8px;
     text-align: left;
@@ -137,13 +137,11 @@ header p {
 }
 
 .arrow-image {
-    width: 40px;
-    position: relative;;
-    margin: auto;
-    top: 80px;
-    left: 170px;
-    right: 0;
-    animation: slideDown infinite 4s;
+    width: 30px;
+    position: relative;
+    top: 60px;
+    left: 185px;
+    animation: slideUpAndDown infinite 3s;
 }
 
 /* Work Section ----------------------------------- */
