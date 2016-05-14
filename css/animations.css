@@ -1,11 +1,10 @@
 /*
 Kelsey Legault
 April 2016
+Animations
  */
 
-/* Animations ----------------------------------- */
-
-/*Simple Fade In Animation*/
+/*Fade In */
 @-webkit-keyframes fadeIn {
     0%    { opacity: 0; }
     100%  { opacity: 1; }
@@ -19,18 +18,54 @@ April 2016
     100%  { opacity: 1; }
 }
 
-/*Simple Slide Left Animation*/
+/*Slide Left */
 @-webkit-keyframes slideLeft {
-    100%  {-webkit-transform: translateX(10px);}
+    100%  {-webkit-transform: translateX(20px);}
 }
 @-moz-keyframes slideLeft {
-    100%  {-moz-transform: translateX(10px);}
+    100%  {-moz-transform: translateX(20px);}
 }
 @keyframes slideLeft {
-    100%  {transform: translateX(10px);}
+    100%  {transform: translateX(20px);}
 }
 
-/*Simple Slide Right Animation*/
+/*Fade In Slide Left */
+@-webkit-keyframes fadeInSlideLeft {
+    100%  {-webkit-transform: translateX(10px);}
+}
+@-moz-keyframes fadeInSlideLeft {
+    100%  {-moz-transform: translateX(10px);}
+}
+@keyframes fadeInSlideLeft {
+    0% {opacity: 0;}
+    100%  {transform: translateX(20px);}
+}
+
+/*Fade In Slide Right */
+@-webkit-keyframes fadeInSlideRight {
+    100%  {-webkit-transform: translateX(10px);}
+}
+@-moz-keyframes fadeInSlideRight {
+    100%  {-moz-transform: translateX(10px);}
+}
+@keyframes fadeInSlideRight {
+    0% {opacity: 0;}
+    100%  {transform: translateX(-20px);}
+}
+
+/*Fade In Slide Down */
+@-webkit-keyframes fadeInSlideDown {
+    100%  {-webkit-transform: translateY(60px);}
+}
+@-moz-keyframes fadeInSlideDown {
+    100%  {-moz-transform: translateY(60px);}
+}
+@keyframes fadeInSlideDown {
+    0% {opacity: 0;}
+    100%  {transform: translateY(60px);}
+}
+
+/*Slide Right */
 @-webkit-keyframes slideRight {
     0%  {-webkit-transform: translateX(10px);}
 }
@@ -41,7 +76,7 @@ April 2016
     0%  {transform: translateX(10px);}
 }
 
-/*Simple Slide Down Animation*/
+/*Slide Down */
 @-webkit-keyframes slideUpAndDown {
     0%  {-webkit-transform: translateY(-7px);}
     50%  {-webkit-transform: translateY(7px);}
@@ -58,7 +93,7 @@ April 2016
     100%  {-webkit-transform: translateY(-7px);}
 }
 
-/* Simple Small Slide Left Animation*/
+/*Small Slide Left */
 @-webkit-keyframes slideLeftSm {
     100%  {-webkit-transform: translateX(5px);}
 }
@@ -69,7 +104,18 @@ April 2016
     100%  {transform: translateX(5px);}
 }
 
-/*Simple Small Slide Right Animation*/
+/*Small Slide Right */
+@-webkit-keyframes slideRightSm {
+    0%  {-webkit-transform: translateX(5px);}
+}
+@-moz-keyframes slideRightSm {
+    0%  {-moz-transform: translateX(5px);}
+}
+@keyframes slideRightSm {
+    0%  {transform: translateX(5px);}
+}
+
+/*Sway */
 @-webkit-keyframes slideRightSm {
     0%  {-webkit-transform: translateX(5px);}
 }
