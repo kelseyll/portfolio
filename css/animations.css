@@ -60,22 +60,22 @@ April 2016
 
 /* Simple Small Slide Left Animation*/
 @-webkit-keyframes slideLeftSm {
-    100%  {-webkit-transform: translateX(2px);}
+    100%  {-webkit-transform: translateX(5px);}
 }
 @-moz-keyframes slideLeftSm {
-    100%  {-moz-transform: translateX(2px);}
+    100%  {-moz-transform: translateX(5px);}
 }
 @keyframes slideLeftSm {
-    100%  {transform: translateX(2px);}
+    100%  {transform: translateX(5px);}
 }
 
 /*Simple Small Slide Right Animation*/
 @-webkit-keyframes slideRightSm {
-    0%  {-webkit-transform: translateX(2px);}
+    0%  {-webkit-transform: translateX(5px);}
 }
 @-moz-keyframes slideRightSm {
-    0%  {-moz-transform: translateX(2px);}
+    0%  {-moz-transform: translateX(5px);}
 }
 @keyframes slideRightSm {
-    0%  {transform: translateX(2px);}
+    0%  {transform: translateX(5px);}
 }

@@ -141,7 +141,7 @@ header p {
     position: relative;;
     margin: auto;
     top: 80px;
-    left: 150px;
+    left: 170px;
     right: 0;
     animation: slideDown infinite 4s;
 }
@@ -247,10 +247,9 @@ footer {
 
 .footer-text-container ul {
     display: inline-block;
-    margin-top: 35px;
+    margin-top: 32px;
     float: right;
     left: 280px;
-    top: 70px;
 }
 
 .footer-mailto {
@@ -267,7 +266,6 @@ footer {
 .footer-text-container li {
     text-align: center;
     min-width: 110px;
-    margin: 15px 0;
     cursor: pointer;
     list-style: none;
 }
@@ -276,6 +274,7 @@ footer {
     max-width: 180px;
     text-align: left;
     display: block;
+    padding: 10px 0;
 }
 
 /* Animations ----------------------------------- */
@@ -289,9 +288,9 @@ footer {
 }
 
 .slideLeftSm {
-    animation: slideLeftSm 0.5s forwards;
+    animation: slideLeftSm 0.1s forwards;
 }
 
 .slideRightSm {
-    animation: slideRightSm 0.5s forwards;
+    animation: slideRightSm 0.1s forwards;
 }
