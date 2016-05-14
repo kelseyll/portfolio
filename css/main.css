@@ -158,7 +158,7 @@ header p {
 
 /* Work Section ----------------------------------- */
 .work-items-container {
-    animation: fadeIn 0.5s forwards;
+    animation: fadeIn 1.5s forwards;
 }
 
 .work-items-container h1 {
@@ -217,6 +217,7 @@ footer {
     margin-top: 200px;
     height: 200px;
     position: relative;
+    animation: fadeIn 1.5s forwards;
 }
 
 .footer-image {
@@ -227,7 +228,6 @@ footer {
     bottom: -5px;
 }
 
-
 .footer-right-rectangle {
     background-color: #CAE6E0;
     position: absolute;
@@ -235,7 +235,6 @@ footer {
     right: 0;
     height: 300px;
     width: 50%;
-    animation: slideRight 1s forwards;
 }
 
 .footer-left-rectangle {
@@ -245,7 +244,6 @@ footer {
     left: -20px;
     height: 180px;
     width: 54%;
-    animation: slideLeft 2s forwards;
 }
 
 .footer-text-container {
@@ -255,7 +253,7 @@ footer {
     bottom: 300px;
     padding: 40px 20px;
     margin: 0 auto;
-    animation: fadeIn 0.8s forwards;
+    animation: fadeIn 2s forwards;
 }
 
 .footer-text-container ul {
@@ -306,10 +304,6 @@ footer {
 
 .slideRightSm {
     animation: slideRightSm 0.2s forwards;
-}
-
-.slideLeftXsm {
-    animation: slideLeftXsm 0.1s forwards;
 }
 
 .sway {
