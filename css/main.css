@@ -77,7 +77,6 @@ i {
 .hero-container {
     height: 100vh;
     text-align: center;
-    /*animation: fadeIn 3s;*/
 }
 
 header {
@@ -191,7 +190,6 @@ header p {
 
 .work-items-container-span-hover {
     display: inline-block;
-    animation: slideLeft 0.8s forwards;
 }
 
 .work-items-container li span:nth-child(2n) {
@@ -200,7 +198,7 @@ header p {
     top: 1px;
     margin-left: 10px;
     padding-right: 50px;
-    animation: 0.5s slideLeft forwards;
+    animation: slideLeftXsm 0.2s forwards;
 }
 
 .work-items-container-second-span-hover {
@@ -303,9 +301,17 @@ footer {
 }
 
 .slideLeftSm {
-    animation: slideLeftSm 0.1s forwards;
+    animation: slideLeftSm 0.2s forwards;
 }
 
 .slideRightSm {
-    animation: slideRightSm 0.1s forwards;
+    animation: slideRightSm 0.2s forwards;
+}
+
+.slideLeftXsm {
+    animation: slideLeftXsm 0.1s forwards;
+}
+
+.sway {
+    animation: sway 2s infinite;
 }

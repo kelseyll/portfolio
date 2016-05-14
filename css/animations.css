@@ -115,13 +115,31 @@ Animations
     0%  {transform: translateX(5px);}
 }
 
+/*X-Small Slide Right */
+@-webkit-keyframes slideLeftXsm {
+    0%  {-webkit-transform: translateX(-3px);}
+}
+@-moz-keyframes slideLeftXsm {
+    0%  {-moz-transform: translateX(-3px);}
+}
+@keyframes slideLeftXsm {
+    0%  {transform: translateX(-3px);}
+}
+
 /*Sway */
-@-webkit-keyframes slideRightSm {
+@-webkit-keyframes sway {
     0%  {-webkit-transform: translateX(5px);}
 }
-@-moz-keyframes slideRightSm {
+@-moz-keyframes sway {
     0%  {-moz-transform: translateX(5px);}
 }
-@keyframes slideRightSm {
-    0%  {transform: translateX(5px);}
+@keyframes sway {
+    12.5%  {transform: translateX(5px);}
+    25%  {transform: translateX(-5px);}
+    37.5%  {transform: translateX(5px);}
+    50%  {transform: translateX(-5px);}
+    62.5%  {transform: translateX(5px);}
+    75%  {transform: translateX(-5px);}
+    87.5%  {transform: translateX(5px);}
+    100%  {transform: translateX(-5px);}
 }
