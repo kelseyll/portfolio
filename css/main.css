@@ -97,7 +97,6 @@ header p {
 }
 
 .left-hero-image {
-    max-width: 275px;
     position: absolute;
     margin: auto;
     top: -80px;
@@ -120,7 +119,7 @@ header p {
 .right-hero-image {
     position: absolute;
     margin: auto;
-    top: 20px;
+    top: 30px;
     bottom: 300px;
     right: -640px;
     left: 0;
@@ -212,14 +211,14 @@ footer {
     left: 42%;
     display: inline-block;
     z-index: 99;
-    bottom: -3px;
+    bottom: -5px;
 }
 
 
 .footer-right-rectangle {
     background-color: #CAE6E0;
     position: absolute;
-    bottom: -33px;
+    bottom: -55px;
     right: 0;
     height: 300px;
     width: 50%;
@@ -228,7 +227,7 @@ footer {
 .footer-left-rectangle {
     background-color: #FFE9CD;
     position: absolute;
-    bottom: -33px;
+    bottom: -55px;
     left: 0;
     height: 180px;
     width: 54%;
