@@ -182,7 +182,7 @@ header p {
     display: none;
     position: relative;
     top: 1px;
-    margin-left: 400px;
+    margin-left: 10px;
     padding-right: 50px;
     animation: 0.5s slideLeft forwards;
 }
