@@ -31,39 +31,65 @@ Animations
 
 /*Fade In Slide Left */
 @-webkit-keyframes fadeInSlideLeft {
-    100%  {-webkit-transform: translateX(10px);}
+    100%  {
+        -webkit-transform: translateX(20px);
+        opacity: 1;
+    }
 }
 @-moz-keyframes fadeInSlideLeft {
-    100%  {-moz-transform: translateX(10px);}
+    100%  {
+        -moz-transform: translateX(20px);
+        opacity: 1;
+    }
 }
 @keyframes fadeInSlideLeft {
-    0% {opacity: 0;}
-    100%  {transform: translateX(20px);}
+    100%  {
+        transform: translateX(20px);
+        opacity: 1;
+    }
 }
 
 /*Fade In Slide Right */
 @-webkit-keyframes fadeInSlideRight {
-    100%  {-webkit-transform: translateX(10px);}
+    100%  {
+        -webkit-transform: translateX(-20px);
+        opacity: 1;
+    }
 }
 @-moz-keyframes fadeInSlideRight {
-    100%  {-moz-transform: translateX(10px);}
+    100%  {
+        -moz-transform: translateX(-20px);
+        opacity: 1;
+    }
 }
 @keyframes fadeInSlideRight {
-    0% {opacity: 0;}
-    100%  {transform: translateX(-20px);}
+    100%  {
+        transform: translateX(-20px);
+        opacity: 1;
+    }
 }
+
 
 /*Fade In Slide Down */
 @-webkit-keyframes fadeInSlideDown {
-    100%  {-webkit-transform: translateY(60px);}
+    100%  {
+        -webkit-transform: translateY(60px);
+        opacity: 1;
+    }
 }
 @-moz-keyframes fadeInSlideDown {
-    100%  {-moz-transform: translateY(60px);}
+    100%  {
+        -moz-transform: translateY(60px);
+        opacity: 1;
+    }
 }
 @keyframes fadeInSlideDown {
-    0% {opacity: 0;}
-    100%  {transform: translateY(60px);}
+    100%  {
+        transform: translateY(60px);
+        opacity: 1;
+    }
 }
+
 
 /*Slide Right */
 @-webkit-keyframes slideRight {
@@ -88,9 +114,8 @@ Animations
     100%  {-webkit-transform: translateY(-7px);}
 }
 @keyframes slideUpAndDown {
-    0%  {transform: translateY(-7px);}
-    50%  {-webkit-transform: translateY(7px);}
-    100%  {-webkit-transform: translateY(-7px);}
+    0%  {transform: translateY(0);}
+    50%  {-webkit-transform: translateY(-20px);}
 }
 
 /*Small Slide Left */
