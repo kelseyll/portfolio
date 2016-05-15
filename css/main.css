@@ -84,7 +84,9 @@ i {
 }
 
 header {
+    opacity: 0;
     padding: 50px 0 0 70px;
+    animation: fadeInSlideLeft 5s forwards;
 }
 
 header p {
