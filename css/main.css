@@ -111,7 +111,7 @@ header p {
     opacity: 0;
     position: absolute;
     margin: auto;
-    top: -80px;
+    top: -60px;
     bottom: 0;
     right: 740px;
     left: 0;
@@ -139,7 +139,7 @@ header p {
     opacity: 0;
     position: absolute;
     margin: auto;
-    top: 20px;
+    top: 70px;
     bottom: 300px;
     right: -680px;
     left: 0;
@@ -208,10 +208,6 @@ header p {
     transition: 0.2s;
 }
 
-.work-items-container-span-hover {
-    display: inline-block;
-}
-
 .work-items-container li span:nth-child(2n) {
     display: none;
     position: relative;
@@ -242,10 +238,27 @@ footer {
 
 .footer-image {
     position: relative;
-    left: 37%;
     display: inline-block;
     z-index: 99;
     bottom: -5px;
+}
+
+@media (min-width: 750px) {
+    .footer-image {
+        left: 32%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer-image {
+        left: 35%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-image {
+        left: 40%;
+    }
 }
 
 .footer-right-rectangle {
