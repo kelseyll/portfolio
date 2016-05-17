@@ -166,7 +166,7 @@ header p {
     animation-delay: 0.5s;
 }
 
-.lamp-image {
+.lamp {
     opacity: 0;
     max-width: 230px;
     position: absolute;
@@ -202,6 +202,9 @@ header p {
     }
     .right-hero-square {
         top: 250px;
+    }
+    .lamp {
+        top: -70px;
     }
 }
 
