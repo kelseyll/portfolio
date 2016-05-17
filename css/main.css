@@ -6,6 +6,10 @@
     -moz-box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 /* Typography ----------------------------------- */
 
 body {
@@ -54,18 +58,13 @@ i {
     animation-delay: 0.1s;
 }
 
-@media (min-height: 815px) {
-    .hero-container h1 {
-        margin-top: 28vh;
-    }
-}
-
 .hero-paragraph {
+    font-size: 15px;
     opacity: 0;
     display: block;
     line-height: 1.9;
     margin: 40px auto 0 58%;
-    max-width: 290px;
+    max-width: 310px;
     padding: 3px 0 3px 8px;
     text-align: left;
     animation: fadeIn 0.8s forwards;
@@ -81,6 +80,7 @@ i {
 .hero-container {
     height: 100vh;
     text-align: center;
+    overflow-x: hidden;
 }
 
 header {
@@ -107,13 +107,14 @@ header p {
     animation: slideLeft 2s forwards;
 }
 
-.left-hero-image {
+.left-hero-square {
+    width: 300px;
     opacity: 0;
     position: absolute;
     margin: auto;
-    top: -60px;
+    top: 0;
     bottom: 0;
-    right: 740px;
+    right: 780px;
     left: 0;
     z-index: -1;
     display: inline-block !important;
@@ -121,32 +122,48 @@ header p {
     animation-delay: 0.8s;
 }
 
-.center-hero-image {
+.fern,
+.center-hero-square {
     opacity: 0;
     position: absolute;
     margin: auto;
-    top: 280px;
+    top: 260px;
     bottom: 0;
-    right: 240px;
+    right: 160px;
     left: 0;
     z-index: -1;
     display: inline-block !important;
     animation: fadeInSlideLeft 0.8s forwards;
-    animation-delay: 0.8s;
+    animation-delay: 1s;
 }
 
-.right-hero-image {
+.center-hero-square {
+    width: 300px;
+    top: 360px;
+    right: 410px;
+    animation-delay: 0.5s;
+}
+
+.flamingo,
+.right-hero-square {
+    width: 250px;
     opacity: 0;
     position: absolute;
     margin: auto;
-    top: 70px;
-    bottom: 300px;
-    right: -680px;
+    top: 30px;
+    right: -530px;
     left: 0;
     z-index: -1;
     display: inline-block !important;
     animation: fadeInSlideRight 0.8s forwards;
-    animation-delay: 0.8s;
+    animation-delay: 1s;
+}
+
+.right-hero-square {
+    width: 300px;
+    top: 190px;
+    right: -740px;
+    animation-delay: 0.5s;
 }
 
 .lamp-image {
@@ -175,6 +192,25 @@ header p {
     width: 30px;
     animation: slideUpAndDown infinite 3s;
 }
+
+@media (min-height: 815px) {
+    .hero-container h1 {
+        margin-top: 28vh;
+    }
+    .flamingo {
+        top: 70px;
+    }
+    .right-hero-square {
+        top: 250px;
+    }
+}
+
+/*@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+}*/
 
 /* Work Section ----------------------------------- */
 .work-items-container {
@@ -231,7 +267,7 @@ header p {
 footer {
     display: block;
     margin-top: 200px;
-    height: 200px;
+    height: 203px;
     position: relative;
     animation: fadeIn 1.5s forwards;
 }
@@ -240,7 +276,7 @@ footer {
     position: relative;
     display: inline-block;
     z-index: 99;
-    bottom: -5px;
+    bottom: -4px;
 }
 
 @media (min-width: 750px) {
@@ -257,14 +293,20 @@ footer {
 
 @media (min-width: 1200px) {
     .footer-image {
-        left: 40%;
+        left: 39%;
+    }
+}
+
+@media (min-width: 1450px) {
+    .footer-image {
+        left: 42%;
     }
 }
 
 .footer-right-rectangle {
     background-color: #CAE6E0;
     position: absolute;
-    bottom: -56px;
+    bottom: -57px;
     right: 0;
     height: 300px;
     width: 50%;
@@ -273,7 +315,7 @@ footer {
 .footer-left-rectangle {
     background-color: #FFE9CD;
     position: absolute;
-    bottom: -56px;
+    bottom: -57px;
     left: -20px;
     height: 180px;
     width: 54%;
