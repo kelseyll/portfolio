@@ -55,7 +55,7 @@ i {
     max-width: 300px;
     display: inline-block;
     padding: 0 8px 4px 8px;
-    margin-top: 21vh;
+    margin-top: 100px;
     animation: fadeIn 2s forwards;
     animation-delay: 0.1s;
 }
@@ -78,6 +78,7 @@ i {
     }
     .hero-container h1 {
         max-width: none;
+        margin-top: 21vh;
     }
     .hero-paragraph {
         max-width: 400px;
@@ -85,9 +86,6 @@ i {
 }
 
 @media (min-width: 1000px) {
-    .arrow-image {
-        width: 30px;
-    }
     .hero-paragraph {
         margin: 40px auto 0 58%;
         text-align: left;
@@ -227,19 +225,31 @@ header {
     animation: slideUpAndDown infinite 3s;
 }
 
+@media (min-width: 550px) {
+    .hero-left-rectangle {
+        display: inline-block;
+        opacity: 0.2;
+    }
+}
+
 @media(min-width: 1000px) {
     .flamingo,
     .right-hero-square,
     .fern,
     .center-hero-square,
-    .left-hero-square,
-    .hero-left-rectangle {
+    .left-hero-square {
         display: inline-block !important;
+    }
+    .hero-left-rectangle {
+        opacity: 1;
     }
     .hero-container figure {
         top: 30px;
         left: 185px;
         animation-delay: 2s;
+    }
+    .arrow-image {
+        width: 30px;
     }
 }
 
