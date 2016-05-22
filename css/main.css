@@ -26,7 +26,6 @@ p {
 }
 
 li {
-    font-size: 16px;
     list-style: none;
 }
 
@@ -73,16 +72,22 @@ i {
     animation-delay: 0.5s;
 }
 
-@media (min-width: 750px) {
-    h1 {
-        font-size: 53px !important;
+@media (min-width: 500px) {
+    .hero-paragraph {
+        max-width: 450px;
     }
     .hero-container h1 {
         max-width: none;
         margin-top: 21vh;
     }
+}
+
+@media (min-width: 750px) {
+    h1 {
+        font-size: 53px !important;
+    }
     .hero-paragraph {
-        max-width: 400px;
+        max-width: 500px;
     }
 }
 
@@ -288,11 +293,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .work-items-container li {
+    font-size: 14px;
     margin: 0 auto;
     padding: 40px 20px;
     max-width: 900px;
     list-style: none;
-    font-size: 14px;
 }
 
 .work-items-container i {
@@ -331,8 +336,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
     animation: slideLeft 0.8s forwards;
 }
 
-@media(min-width: 550px) {
-    .works-item-container li {
+@media (min-width: 550px) {
+    .work-items-container li {
         font-size: 16px;
     }
     .work-items-container-second-span-hover {
@@ -444,14 +449,16 @@ footer li {
     left: 280px;
 }
 
+.footer-text-container i {
+    margin-left: 10px;
+}
+
 .footer-mailto {
     text-align: center;
     position: static;
     top: 0;
     margin: 50px 0;
     display: block;
-}
-
 }
 
 .footer-text-container li {
@@ -467,7 +474,7 @@ footer li {
     display: block;
     padding: 10px 0;
     margin: auto;
-    width: 45%;
+    width: 107px;
 }
 
 @media (min-width: 550px) {
@@ -493,12 +500,16 @@ footer li {
     .footer-text-container ul a {
         width: 100%;
     }
+    .footer-text-container i {
+        margin-left: 30px;
+    }
     .footer-mailto {
         display: inline;
         position: relative;
-        top: 176px;
+        top: 153px;
         width: 50%;
         margin-top: 180px;
+        margin-bottom: 0;
         text-align: left;
     }
 }
