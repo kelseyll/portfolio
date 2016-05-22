@@ -18,7 +18,7 @@ body {
 
 h1 {
     font-family: "heading", "Helvectica Neue", serif;
-    font-size: 63px;
+    font-size: 40px;
 }
 
 p {
@@ -51,6 +51,8 @@ i {
 
 .hero-container h1 {
     opacity: 0;
+    font-size: 40px;
+    max-width: 300px;
     display: inline-block;
     padding: 0 8px 4px 8px;
     margin-top: 21vh;
@@ -59,16 +61,43 @@ i {
 }
 
 .hero-paragraph {
-    font-size: 15px;
     opacity: 0;
+    font-size: 15px;
     display: block;
     line-height: 1.9;
-    margin: 40px auto 0 58%;
+    margin: 40px auto;
     max-width: 310px;
     padding: 3px 0 3px 8px;
-    text-align: left;
     animation: fadeIn 0.8s forwards;
     animation-delay: 0.5s;
+}
+
+@media (min-width: 750px) {
+    h1 {
+        font-size: 53px !important;
+    }
+    .hero-container h1 {
+        max-width: none;
+    }
+    .hero-paragraph {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .arrow-image {
+        width: 30px;
+    }
+    .hero-paragraph {
+        margin: 40px auto 0 58%;
+        text-align: left;
+    }
+    h1 {
+        font-size: 63px !important;
+    }
+    .hero-paragraph {
+        max-width: 310px;
+    }
 }
 
 /* Layout ----------------------------------- */
@@ -85,12 +114,18 @@ i {
 
 header {
     opacity: 0;
-    padding: 50px 0 0 70px;
-    animation: fadeInSlideLeft 5s forwards;
+    padding: 50px 0 0 0;
+    animation: fadeIn 1s forwards;
 }
 
-header p {
-    text-align: left;
+@media (min-width: 1000px) {
+    header {
+        padding: 50px 0 0 70px;
+        animation: fadeInSlideLeft 5s forwards;
+    }
+    header p {
+        text-align: left;
+    }
 }
 
 /* Hero Images ----------------------------------- */
@@ -103,7 +138,7 @@ header p {
     height: 100vh;
     width: 50vw;
     z-index: -99;
-    display: inline-block !important;
+    display: none;
     animation: slideLeft 2s forwards;
 }
 
@@ -117,7 +152,7 @@ header p {
     right: 780px;
     left: 0;
     z-index: -1;
-    display: inline-block !important;
+    display: none;
     animation: fadeInSlideLeft 0.4s forwards;
     animation-delay: 0.8s;
 }
@@ -132,7 +167,7 @@ header p {
     right: 160px;
     left: 0;
     z-index: -1;
-    display: inline-block !important;
+    display: none;
     animation: fadeInSlideLeft 0.8s forwards;
     animation-delay: 1s;
 }
@@ -154,7 +189,7 @@ header p {
     right: -530px;
     left: 0;
     z-index: -1;
-    display: inline-block !important;
+    display: none;
     animation: fadeInSlideRight 0.8s forwards;
     animation-delay: 1s;
 }
@@ -174,23 +209,38 @@ header p {
     top: -120px;
     left: 0;
     right: 0;
-    display: inline-block !important;
+    display: none;
     animation: fadeInSlideDown 1.5s forwards;
     animation-delay: 0.3s;
 }
 
 .hero-container figure {
     position: relative;
-    top: 30px;
-    left: 185px;
     opacity: 0;
     animation: fadeInSlideDown 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 1.2s;
+    bottom: 30px;
 }
 
 .arrow-image {
-    width: 30px;
+    width: 20px;
     animation: slideUpAndDown infinite 3s;
+}
+
+@media(min-width: 1000px) {
+    .flamingo,
+    .right-hero-square,
+    .fern,
+    .center-hero-square,
+    .left-hero-square,
+    .hero-left-rectangle {
+        display: inline-block !important;
+    }
+    .hero-container figure {
+        top: 30px;
+        left: 185px;
+        animation-delay: 2s;
+    }
 }
 
 @media (min-height: 815px) {
@@ -198,10 +248,10 @@ header p {
         margin-top: 28vh;
     }
     .flamingo {
-        top: 70px;
+        top: 90px;
     }
     .right-hero-square {
-        top: 250px;
+        top: 270px;
     }
     .lamp {
         top: -70px;
@@ -240,11 +290,25 @@ only screen and (min-device-pixel-ratio: 1.5) {
     padding: 40px 20px;
     max-width: 900px;
     list-style: none;
+    font-size: 14px;
+}
+
+.work-items-container i {
+    float: none;
+    margin-left: 2px;
+    background-size: 15px;
+    width: 20px;
+    display: inline-block;
 }
 
 .work-items-container a:hover {
     background-color: #EEE;
     transition: 0.2s;
+}
+
+.work-items-container span  {
+    display: block;
+    text-align: center;
 }
 
 .work-items-container li span:nth-child(2n) {
@@ -256,30 +320,63 @@ only screen and (min-device-pixel-ratio: 1.5) {
     animation: slideLeftXsm 0.2s forwards;
 }
 
+.work-items-container li span:nth-child(3n) {
+    margin-top: 10px;
+}
+
 .work-items-container-second-span-hover {
-    display: inline-block !important;
+    display: none;
     animation: slideLeft 0.8s forwards;
 }
 
-.work-items-container li span:nth-child(3n) {
-    float: right;
+@media(min-width: 550px) {
+    .works-item-container li {
+        font-size: 16px;
+    }
+    .work-items-container-second-span-hover {
+        display: inline-block !important;
+    }
+    .work-items-container span  {
+        display: inline-block;
+    }
+    .work-items-container li span:nth-child(3n) {
+        float: right;
+    }
+    .work-items-container i {
+        float: right;
+        margin-left: 30px;
+    }
+    .work-items-container li span:nth-child(3n) {
+        margin-top: 0;
+    }
 }
 
 /* Footer ----------------------------------- */
 
 footer {
     display: block;
-    margin-top: 200px;
     height: 203px;
     position: relative;
     animation: fadeIn 1.5s forwards;
+    font-size: 14px;
+}
+
+footer li {
+    font-size: 14px;
 }
 
 .footer-image {
     position: relative;
-    display: inline-block;
+    display: none;
     z-index: 99;
     bottom: -4px;
+}
+
+@media (min-width: 550px) {
+    footer,
+    footer li {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 750px) {
@@ -291,6 +388,7 @@ footer {
 @media (min-width: 1000px) {
     .footer-image {
         left: 35%;
+        display: inline-block;
     }
 }
 
@@ -307,6 +405,7 @@ footer {
 }
 
 .footer-right-rectangle {
+    display: none;
     background-color: #CAE6E0;
     position: absolute;
     bottom: -57px;
@@ -316,6 +415,7 @@ footer {
 }
 
 .footer-left-rectangle {
+    display: none;
     background-color: #FFE9CD;
     position: absolute;
     bottom: -57px;
@@ -327,29 +427,64 @@ footer {
 .footer-text-container {
     max-width: 900px;
     position: relative;
-    overflow: auto;
-    bottom: 300px;
-    padding: 40px 20px;
-    margin: 0 auto;
+    bottom: 30px;
+    padding: 40px 50px;
+    margin: 0 auto 0 auto;
     animation: fadeIn 2s forwards;
 }
 
+.footer-text-container h1 {
+    text-align: center;
+}
+
 .footer-text-container ul {
-    display: inline-block;
-    margin-top: 32px;
-    float: right;
+    display: block;
     left: 280px;
 }
 
 .footer-mailto {
-    position: relative;
-    margin-top: 180px;
-    width: 50%;
-    top: 176px;
+    text-align: center;
+    position: static;
+    top: 0;
+    margin: 50px 0;
+    display: block;
 }
 
-.ntainer a {
-    display: inline-block;
+@media (min-width: 550px) {
+    footer {
+        margin-top: 200px;
+    }
+    .footer-left-rectangle,
+    .footer-right-rectangle {
+        display: inline-block;;
+    }
+    .footer-text-container {
+        overflow: auto;
+        margin: 0 auto 30px auto;
+    }
+    .footer-text-container h1 {
+        display: none;
+    }
+    .footer-text-container ul {
+        float: right;
+        margin-top: 32px;
+        display: block;
+    }
+    .footer-mailto {
+        display: inline;
+        position: relative;
+        top: 176px;
+        width: 50%;
+        margin-top: 180px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer-text-container {
+        bottom: 300px;
+        padding: 40px 20px;
+    }
 }
 
 .footer-text-container li {
@@ -364,6 +499,7 @@ footer {
     text-align: left;
     display: block;
     padding: 10px 0;
+    margin: auto;
 }
 
 /* Animations ----------------------------------- */
