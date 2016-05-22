@@ -27,6 +27,7 @@ p {
 
 li {
     font-size: 16px;
+    list-style: none;
 }
 
 ul {
@@ -225,23 +226,14 @@ header {
     animation: slideUpAndDown infinite 3s;
 }
 
-@media (min-width: 550px) {
-    .hero-left-rectangle {
-        display: inline-block;
-        opacity: 0.2;
-    }
-}
-
 @media(min-width: 1000px) {
     .flamingo,
     .right-hero-square,
     .fern,
     .center-hero-square,
-    .left-hero-square {
-        display: inline-block !important;
-    }
+    .left-hero-square,
     .hero-left-rectangle {
-        opacity: 1;
+        display: inline-block !important;
     }
     .hero-container figure {
         top: 30px;
@@ -460,6 +452,24 @@ footer li {
     display: block;
 }
 
+}
+
+.footer-text-container li {
+    text-align: center;
+    min-width: 110px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.footer-text-container ul a {
+    max-width: 180px;
+    text-align: left;
+    display: block;
+    padding: 10px 0;
+    margin: auto;
+    width: 45%;
+}
+
 @media (min-width: 550px) {
     footer {
         margin-top: 200px;
@@ -480,6 +490,9 @@ footer li {
         margin-top: 32px;
         display: block;
     }
+    .footer-text-container ul a {
+        width: 100%;
+    }
     .footer-mailto {
         display: inline;
         position: relative;
@@ -495,21 +508,6 @@ footer li {
         bottom: 300px;
         padding: 40px 20px;
     }
-}
-
-.footer-text-container li {
-    text-align: center;
-    min-width: 110px;
-    cursor: pointer;
-    list-style: none;
-}
-
-.footer-text-container ul a {
-    max-width: 180px;
-    text-align: left;
-    display: block;
-    padding: 10px 0;
-    margin: auto;
 }
 
 /* Animations ----------------------------------- */
