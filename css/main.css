@@ -52,10 +52,7 @@ i {
 .hero-container h1 {
     opacity: 0;
     font-size: 40px;
-    max-width: 300px;
-    display: inline-block;
-    padding: 0 8px 4px 8px;
-    margin-top: 100px;
+    padding: 60px 8px 4px 8px;
     animation: fadeIn 2s forwards;
     animation-delay: 0.1s;
 }
@@ -78,7 +75,6 @@ i {
     }
     .hero-container h1 {
         max-width: none;
-        margin-top: 21vh;
     }
 }
 
@@ -122,105 +118,83 @@ header {
     animation: fadeIn 1s forwards;
 }
 
+header p {
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+}
+
+header a {
+    float: right;
+}
+
 @media (min-width: 1000px) {
     header {
-        padding: 50px 0 0 70px;
-        animation: fadeInSlideLeft 5s forwards;
+        padding: 50px 70px;
     }
     header p {
         text-align: left;
+        animation: fadeInSlideLeft 5s forwards;
+    }
+    header a {
+        animation: fadeInSlideRight 5s forwards;
     }
 }
 
 /* Hero Images ----------------------------------- */
-
-.hero-left-rectangle {
-    background-color: #CAE6E0;
-    position: absolute;
-    top: 0;
-    left: -20px;
-    height: 100vh;
-    width: 50vw;
-    z-index: -99;
-    display: none;
-    animation: slideLeft 2s forwards;
-}
-
-.left-hero-square {
-    width: 300px;
+.skillzsqaure {
+    display: inline-block;
+    width: 378px;
+    height: 310px;
+    padding: 30px 40px;
+    line-height: 39px;
+    font-family: "heading", "Helvectica Neue", serif;
+    text-align: left;
+    font-size: 25px;
+    background-color: #F2FFFF;
     opacity: 0;
     position: absolute;
     margin: auto;
-    top: 0;
-    bottom: 0;
-    right: 780px;
+    top: 35%;
+    right: 40%;
     left: 0;
-    z-index: -1;
-    display: none;
     animation: fadeInSlideLeft 0.4s forwards;
-    animation-delay: 0.8s;
-}
-
-.fern,
-.center-hero-square {
-    opacity: 0;
-    position: absolute;
-    margin: auto;
-    top: 260px;
-    bottom: 0;
-    right: 160px;
-    left: 0;
-    z-index: -1;
-    display: none;
-    animation: fadeInSlideLeft 0.8s forwards;
-    animation-delay: 1s;
-}
-
-.center-hero-square {
-    width: 300px;
-    top: 360px;
-    right: 410px;
-    animation-delay: 0.5s;
-}
-
-.computersquare {
-    opacity: 0;
-    position: absolute;
-    margin: auto;
-    top: 30px;
-    right: -530px;
-    left: 0;
-    z-index: -1;
-    display: none;
-    animation: fadeInSlideRight 0.8s forwards;
-    animation-delay: 1s;
-}
-
-.computersquare {
-    top: 190px;
-    right: -740px;
-    animation-delay: 0.5s;
-}
-
-.lamp {
-    opacity: 0;
-    max-width: 230px;
-    position: absolute;
-    margin: auto;
-    top: -120px;
-    left: 0;
-    right: 0;
-    display: none;
-    animation: fadeInSlideDown 1.5s forwards;
     animation-delay: 0.3s;
 }
 
+.fernsquare {
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 13%;
+    right: -35%;
+    left: 0;
+    z-index: -2;
+    animation: fadeInSlideLeft 0.8s forwards;
+    animation-delay: 0.6s;
+}
+
+.computersquare {
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    left: 10%;
+    right: 0;
+    top: 38%;
+    z-index: -1;
+    animation: fadeInSlideRight 0.8s forwards;
+    animation-delay: 0.6s;
+}
+
+/*arrow container*/
 .hero-container figure {
     position: relative;
     opacity: 0;
     animation: fadeInSlideDown 1s forwards;
-    animation-delay: 1.2s;
-    bottom: 30px;
+    animation-delay: 0.7s;
+    top: 36%;
 }
 
 .arrow-image {
@@ -230,35 +204,16 @@ header {
 
 @media(min-width: 1000px) {
     .computersquare,
-    .right-hero-square,
-    .fern,
-    .center-hero-square,
-    .left-hero-square,
-    .hero-left-rectangle {
+    .skillzsqaure,
+    .fernsquare {
         display: inline-block !important;
     }
     .hero-container figure {
-        top: 30px;
-        left: 185px;
+        left: 23%;
         animation-delay: 2s;
     }
     .arrow-image {
         width: 30px;
-    }
-}
-
-@media (min-height: 815px) {
-    .hero-container h1 {
-        margin-top: 28vh;
-    }
-    .computersquare {
-        top: 90px;
-    }
-    .right-hero-square {
-        top: 270px;
-    }
-    .lamp {
-        top: -70px;
     }
 }
 
@@ -269,13 +224,22 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 }*/
 
+.tldr {
+    font-family: "heading", "Helvectica Neue", serif;
+    font-size: 25px;
+    margin: 80px auto 150px auto;
+    max-width: 900px;
+    padding: 0 20px;
+    display: block;
+    width: 100%;
+}
+
 /* Work Section ----------------------------------- */
 .work-items-container {
     animation: fadeIn 1.5s forwards;
 }
 
 .work-items-container h1 {
-    padding-top: 100px;
     padding-bottom: 35px;
     text-align: center;
 }
