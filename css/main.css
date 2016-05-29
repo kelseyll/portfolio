@@ -112,7 +112,7 @@ i {
 }
 
 .hero-container {
-    height: 100vh;
+    height: 800px;
     text-align: center;
     overflow-x: hidden;
 }
@@ -151,6 +151,9 @@ header a {
     header div:first-of-type {
         float: left;
         text-align: left;
+    }
+    .hero-container {
+        height: 800px;
     }
 }
 
