@@ -291,7 +291,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .tldr {
     font-family: "heading", "Helvectica Neue", serif;
     font-size: 18px;
-    margin: 80px auto 80px auto;
+    margin: 50px auto 80px auto;
     line-height: 42px;
     max-width: 1100px;
     padding: 0 30px;
