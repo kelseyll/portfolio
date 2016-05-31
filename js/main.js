@@ -1,4 +1,3 @@
-
 $(function() {
   $( ".drag" ).draggable();
 });

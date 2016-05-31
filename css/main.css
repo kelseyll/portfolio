@@ -14,7 +14,7 @@ html {
 
 body {
     overflow-x: hidden;
-    background-color: #fff;
+    background-color: #FFF;
     font-family: "Inconsolata", "Helvetica Neue", sans-serif;
 }
 
@@ -104,7 +104,7 @@ i {
     }
     .hero-container h1 {
         max-width: none;
-        padding: 8% 8px 4px 8px;
+        padding: 4% 8px 4px 8px;
     }
 }
 
@@ -135,13 +135,14 @@ header {
     margin: auto;
     width: 100%;
     padding: 30px 50px;
-}
-
-header a {
-    text-decoration: underline;
+    z-index: 4;
+    position: relative;
 }
 
 @media(min-width: 550px) {
+    header {
+        position: static;
+    }
     header,
     header a {
         font-size: 16px;
@@ -187,8 +188,7 @@ header a {
 }
 .skillzsqaure,
 .computersquare,
-.fernsquare,
-.fernsquare-orange {
+.fernsquare {
     position: absolute;
 }
 
@@ -205,7 +205,6 @@ header a {
     max-width: none;
     transform: translate3d(-65%,8%,0);
     z-index: 3;
-    -webkit-font-smoothing: antialiased;
 }
 
 .square-container-computer {
@@ -214,49 +213,40 @@ header a {
 }
 
 .square-container-fern {
-    transform: translate3d(54%,-40%,0);
+    transform: translate3d(-96%,-50%,0);
     z-index: 1;
 }
 
 .skillzsqaure {
     font-size: 20px;
+    -webkit-font-smoothing: antialiased;
     width: 270px;
     height: 240px;
-    padding: 25px 0 0 25px;
     line-height: 29px;
+    padding: 20px 20px 0 0;
     font-family: "heading", "Helvectica Neue", serif;
     text-align: left;
     opacity: 0;
     animation: fadeInSlideLeft 0.4s forwards;
     animation-delay: 0.3s;
-    /*This color was discovered by Cameron Rohani (twitter: @hotdog)*/
-    background-color: #F5F2FF;
+    /*The color of this svg was discovered by Cameron Rohani (twitter: @hotdog)*/
 }
 
-.fernsquare,
-.fernsquare-orange {
+.fernsquare {
     opacity: 0;
     z-index: -2;
     animation: fadeInSlideLeft 0.8s forwards;
     animation-delay: 0.6s;
 }
-.fernsquare {
-    display: none;
-}
-
-.fernsquare-orange {
-    display: block;
-    margin-left: 100px;
-}
 
 .computersquare {
     max-width: 270px;
     opacity: 0;
-    display: none;
     z-index: -1;
     transform: translate3d(20%,-4%,0);
     animation: fadeInSlideRight 0.8s forwards;
     animation-delay: 0.6s;
+    padding: 0 0 20px 20px;
 }
 
 /*arrow container*/
@@ -274,7 +264,7 @@ header a {
     max-width: 410px;
     width: 100%;
     margin: auto;
-    transform: translate3d(120%,-260%,0);
+    display: none;
 }
 .arrow-image {
     width: 20px;
@@ -283,18 +273,12 @@ header a {
 
 @media (min-width: 550px) {
     .skillzsqaure {
-        width: 378px;
-        height: 310px;
-        font-size: 25px;
-        padding: 35px 0 0 50px;
-        line-height: 39px;
+        width: 410px;
+        height: 410px;
     }
     .fernsquare {
         max-width: none;
         display: block;
-    }
-    .fernsquare-orange {
-        display: none;
     }
     .computersquare {
         max-width: none;
@@ -306,11 +290,11 @@ header a {
     .square-container-list {
         padding-left: 30%;
     }
-}
-
-@media (min-width: 550px) {
     .square-container {
         padding-top: 110px;
+    }
+    .square-container-fern {
+        transform: translate3d(54%,-40%,0);
     }
 }
 
@@ -328,6 +312,10 @@ header a {
         animation-delay: 2s;
         padding: 0;
     }
+    .arrow-image-holder {
+        display: block;
+        transform: translate3d(120%,-260%,0);
+    }
 }
 
 @media(min-width: 1000px) {
@@ -336,6 +324,9 @@ header a {
     }
     .square-container {
         padding-top: 30px;
+    }
+    .arrow-image-holder {
+        transform: translate3d(120%,-260%,0);
     }
 }
 
@@ -540,7 +531,6 @@ footer li {
 }
 
 .footer-mailto {
-    text-decoration: underline;
     text-align: center;
     position: static;
     top: 0;
