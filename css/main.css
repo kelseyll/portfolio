@@ -229,7 +229,8 @@ header a {
     opacity: 0;
     animation: fadeInSlideLeft 0.4s forwards;
     animation-delay: 0.3s;
-    background-color: #F2FFFF;
+    /*This color was discovered by Cameron Rohani (twitter: @hotdog)*/
+    background-color: #F5F2FF;
 }
 
 .fernsquare,
@@ -338,13 +339,6 @@ header a {
     }
 }
 
-/*@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
-only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5) {
-
-}*/
-
 .tldr {
     font-family: "heading", "Helvectica Neue", serif;
     font-size: 18px;
@@ -354,8 +348,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
     padding: 0 30px;
     display: block;
     width: 100%;
-    position: relative;
-    z-index: 4;
 }
 
 @media (min-width: 550px) {
