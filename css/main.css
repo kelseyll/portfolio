@@ -64,9 +64,11 @@ i {
 }
 .ui-draggable {
     cursor: -webkit-grab;
+    cursor: grab;
 }
 .ui-draggable-dragging {
     cursor: -webkit-grabbing;
+    cursor: grabbing;
 }
 
 @media (min-width: 550px) {
