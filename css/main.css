@@ -206,13 +206,13 @@ header {
 }
 
 .square-container-computer-mobile {
-    top: 200px;
-    right: -10px;
+    top: 270px;
+    right: -40px;
 }
 
 .square-container-list-mobile {
     top: 30px;
-    right: 50px;
+    right: 40px;
     z-index: 2;
 }
 
