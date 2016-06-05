@@ -289,8 +289,6 @@ header {
     padding: 0 0 20px 20px;
 }
 
-
-
 /*arrow container*/
 .hero-container figure {
     position: relative;
@@ -299,7 +297,6 @@ header {
     animation: fadeInSlideDown 1s forwards;
     animation-delay: 0.7s;
     pointer-events: none;
-    padding: 100px 0 0 300px;
 }
 .arrow-image-holder {
     text-align: left;
@@ -365,7 +362,10 @@ header {
     }
     .arrow-image-holder {
         display: block;
-        transform: translate3d(120%,-260%,0);
+        position: relative;
+        position: relative;
+        left: 35%;
+        top: -40px;
     }
 }
 
@@ -377,14 +377,13 @@ header {
         padding-top: 30px;
     }
     .arrow-image-holder {
-        transform: translate3d(120%,-260%,0);
     }
 }
 
 .tldr {
     font-family: "heading", "Helvectica Neue", serif;
     font-size: 18px;
-    margin: 22px auto 80px auto;
+    margin: 130px auto 80px auto;
     line-height: 42px;
     max-width: 1100px;
     padding: 0 30px;
@@ -394,10 +393,14 @@ header {
 
 @media (min-width: 550px) {
     .tldr {
-        margin: 50px auto 80px auto;
         font-size: 25px;
         line-height: 52px;
         padding: 0 20px;
+    }
+}
+@media (min-height: 750px) {
+    .tldr {
+        margin: 40px auto 80px auto;
     }
 }
 
