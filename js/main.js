@@ -6,7 +6,7 @@ $( document ).ready(function() {
         preload: true,
         autoplay: true,
         loop: true,
-        volume: 30
+        volume: 70
     });
 
     // Mute/Play Button
