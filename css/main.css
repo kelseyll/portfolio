@@ -369,6 +369,10 @@ header {
     }
 }
 
+.square-container img {
+    max-width: 350px;
+}
+
 @media(min-width: 750px) {
     .square-container-list {
         padding-left: 15%;
@@ -406,9 +410,8 @@ header {
 }
 
 .tldr {
-    font-family: "heading", "Helvectica Neue", serif;
-    font-size: 18px;
-    margin: 130px auto 80px auto;
+    font-size: 16px;
+    margin: 120px auto 80px auto;
     line-height: 42px;
     max-width: 1100px;
     padding: 0 30px;
@@ -418,7 +421,6 @@ header {
 
 @media (min-width: 750px) {
     .tldr {
-        font-size: 25px;
         line-height: 52px;
         padding: 0 20px;
     }
