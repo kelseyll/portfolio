@@ -79,8 +79,9 @@ i {
 }
 
 @media (min-width: 750px) {
-    h1 {
-        font-size: 53px !important;
+    h1,
+    .hero-container h1 {
+        font-size: 53px;
     }
     .hero-paragraph {
         max-width: 500px;
@@ -96,8 +97,9 @@ i {
         margin: 40px auto 0 58%;
         text-align: left;
     }
-    h1 {
-        font-size: 63px !important;
+    h1,
+    .hero-container h1 {
+        font-size: 63px;
     }
     .hero-paragraph {
         max-width: 310px;
@@ -701,6 +703,20 @@ footer li {
     .footer-text-container {
         padding: 40px 20px;
     }
+}
+
+/* 404 ----------------------------------- */
+.oops {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.oops h1 {
+    font-family: "Inconsolata", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    align-self: center;
 }
 
 /* Animations ----------------------------------- */
