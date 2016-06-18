@@ -232,6 +232,35 @@ header {
     position: absolute;
 }
 
+.square-container-fern,
+.square-container-pinkfern,
+.square-container-computer,
+.square-container-list,
+.square-container-flamingo,
+.square-container-tv,
+.square-container-dolphin {
+    display: none;
+}
+
+.square-container-computer,
+.square-container-list,
+.square-container-fern,
+.square-container-pinkfern,
+.square-container-flamingo,
+.square-container-fern-mobile,
+.square-container-computer-mobile,
+.square-container-list-mobile,
+.square-container-tv,
+.square-container-dolphin {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* Positions of hero images ----------------------------------- */
+
+/*Mobile ----------------------------------- */
+
 .square-container-fern-mobile {
     top: 0px;
     right: 50px;
@@ -248,39 +277,20 @@ header {
     z-index: 2;
 }
 
-.square-container-fern,
-.square-container-pinkfern,
-.square-container-computer,
-.square-container-list,
-.square-container-flamingo {
-    display: none;
-}
-
-.square-container-computer,
-.square-container-list,
-.square-container-fern,
-.square-container-pinkfern,
-.square-container-flamingo,
-.square-container-fern-mobile,
-.square-container-computer-mobile,
-.square-container-list-mobile {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
+/*Desktop ----------------------------------- */
 
 .square-container-list {
     top: 60px;
     right: 250px;
     padding-left: 62%;
     max-width: none;
-    z-index: 3;
+    z-index: 4;
 }
 
 .square-container-computer {
     top: 10px;
     right: -40px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .square-container-fern {
@@ -301,6 +311,18 @@ header {
     z-index: 1;
 }
 
+.square-container-tv {
+    top: 10px;
+    right: -20px;
+    z-index: 2;
+}
+
+.square-container-dolphin {
+    top: 10px;
+    right: -20px;
+    z-index: 1;
+}
+
 .skillzsqaure,
 .skillzsquare-mobile {
     padding: 20px 20px 0 0;
@@ -310,6 +332,8 @@ header {
     /*The color of this svg was discovered by Cameron Rohani (twitter: @hotdog)*/
 }
 
+/* Depth indexes of hero images ----------------------------------- */
+
 .fernsquare {
     opacity: 0;
     z-index: -2;
@@ -317,7 +341,9 @@ header {
     animation-delay: 0.6s;
 }
 
-.flamingosquare {
+.flamingosquare,
+.tvsquare,
+.dolphinsquare, {
     opacity: 0;
     z-index: -2;
     animation: fadeInSlideLeft 0.8s forwards;
@@ -340,7 +366,7 @@ header {
     padding: 0 0 20px 20px;
 }
 
-/*arrow container*/
+/* Arrow container ----------------------------------- */
 .hero-container figure {
     position: relative;
     z-index: 10;
@@ -363,23 +389,10 @@ header {
     .square-container-list-mobile {
         display: none;
     }
-    .skillzsqaure {
-        width: 410px;
-        height: 410px;
-    }
-    .fernsquare {
-        max-width: none;
-        display: block;
-    }
-    .computersquare {
-        max-width: none;
-        display: block;
-    }
-    .flamaingosquare {
-        max-width: none;
-        display: block;
-    }
-    .pinkfernsquare {
+    .fernsquare,
+    .computersquare,
+    .flamaingosquare,
+    .pinkfernsquare, {
         max-width: none;
         display: block;
     }
@@ -396,7 +409,9 @@ header {
     .square-container-fern,
     .square-container-pinkfern,
     .square-container-list,
-    .square-container-flamingo {
+    .square-container-flamingo,
+    .square-container-tv,
+    .square-container-dolphin {
         display: block;
     }
 }
@@ -411,8 +426,6 @@ header {
     }
     .square-container img {
         max-width: none;
-    }
-    .square-container {
     }
     .fake-square {
         padding-top: 100px;
@@ -574,51 +587,6 @@ footer li {
     }
 }
 
-@media (min-width: 750px) {
-    .footer-image {
-        left: 32%;
-    }
-}
-
-@media (min-width: 1000px) {
-    .footer-image {
-        left: 35%;
-        display: inline-block;
-    }
-}
-
-@media (min-width: 1200px) {
-    .footer-image {
-        left: 39%;
-    }
-}
-
-@media (min-width: 1450px) {
-    .footer-image {
-        left: 42%;
-    }
-}
-
-.footer-right-rectangle {
-    display: none;
-    background-color: #CAE6E0;
-    position: absolute;
-    bottom: -57px;
-    right: 0;
-    height: 300px;
-    width: 50%;
-}
-
-.footer-left-rectangle {
-    display: none;
-    background-color: #FFE9CD;
-    position: absolute;
-    bottom: -57px;
-    left: -20px;
-    height: 180px;
-    width: 54%;
-}
-
 .footer-text-container {
     max-width: 1100px;
     position: relative;
@@ -735,8 +703,4 @@ footer li {
 
 .slideRightSm {
     animation: slideRightSm 0.2s forwards;
-}
-
-.sway {
-    animation: sway 2s infinite;
 }
