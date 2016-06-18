@@ -11,7 +11,7 @@ $( document ).ready(function() {
 
     // Mute/Play Button
     $( ".volume-button" ).click(function() {
-        $( "span" ).toggle();
+        $( ".volume-button span" ).toggle();
         bgMusic.togglePlay();
     });
 
