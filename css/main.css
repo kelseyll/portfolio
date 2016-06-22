@@ -51,6 +51,35 @@ i {
     position: relative;
 }
 
+.link-underline,
+.link-underline-list li a {
+    position: relative;
+}
+
+.link-underline:before,
+.link-underline-list li a:before  {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    top: 60%;
+    left: 0;
+    background-color: #FFE2FF;
+    z-index: -1;
+}
+
+.link-underline-list li a:before {
+    height: 30%;
+    top: 50%;
+    width: 70%;
+    background-color: #ECF0FF;
+}
+
+.link-underline:hover:before,
+.link-underline-list li a:hover:before {
+    background: #f7f7f7;
+}
+
 .hero-container h1 {
     opacity: 0;
     pointer-events: none;
@@ -238,7 +267,8 @@ header {
 .square-container-list,
 .square-container-flamingo,
 .square-container-tv,
-.square-container-dolphin {
+.square-container-dolphin,
+.square-container-palmtree {
     display: none;
 }
 
@@ -251,7 +281,8 @@ header {
 .square-container-computer-mobile,
 .square-container-list-mobile,
 .square-container-tv,
-.square-container-dolphin {
+.square-container-dolphin,
+.square-container-palmtree {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -299,6 +330,12 @@ header {
     z-index: 1;
 }
 
+.square-container-palmtree {
+    top: 10px;
+    right: -40px;
+    z-index: 1;
+}
+
 .square-container-flamingo,
 .square-container-tv,
 .square-container-dolphin {
@@ -306,6 +343,7 @@ header {
     right: -40px;
     z-index: 1;
 }
+
 
 .skillzsqaure,
 .skillzsquare-mobile {
@@ -327,9 +365,9 @@ header {
 
 .flamingosquare,
 .tvsquare,
-.dolphinsquare {
+.dolphinsquare,
+.palmtreesquare {
     opacity: 0;
-    z-index: -2;
     animation: fadeIn 0.8s forwards;
     animation-delay: 1.3s;
 }
@@ -378,7 +416,8 @@ header {
     .flamaingosquare,
     .pinkfernsquare,
     .tvsquare,
-    .dolphinsquare {
+    .dolphinsquare,
+    .palmtreesquare {
         max-width: none;
         display: block;
     }
@@ -397,7 +436,8 @@ header {
     .square-container-list,
     .square-container-flamingo,
     .square-container-tv,
-    .square-container-dolphin {
+    .square-container-dolphin,
+    .square-container-palmtree {
         display: block;
     }
 }
