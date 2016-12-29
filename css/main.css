@@ -525,7 +525,7 @@ body .work-items {
     display: flex;
     display: -webkit-flex;
     display: -moz-flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .work-items-section {
