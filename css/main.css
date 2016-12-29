@@ -512,12 +512,20 @@ header {
 /* Work Section ----------------------------------- */
 .work-items h2 {
     font-family: "heading", "Helvectica Neue", serif;
-    line-height: 60px;
+    line-height: 33px;
+    min-height: 50px;
+    font-size: 19px;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
 }
 
 body .work-items {
-    margin-top: 100px;
+    margin-top: 50px;
     overflow: auto;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-around;
 }
 
 .work-items-section {
@@ -528,20 +536,18 @@ body .work-items {
 @media (min-width: 750px) {
     .work-items-section {
         padding-left: 30px;
-        display: inline-block;
-        width: calc(100%/3 - 40px);
     }
     .work-items-section:first-child {
         padding-left: 0;
     }
     .work-items-section:nth-child(3n) {
-        float: right;
+        /*float: right;*/
     }
 }
 
 .work-items-section ul li a {
     display: block;
-    line-height: 40px;
+    line-height: 24px;
     padding-left: 50px;
 }
 
