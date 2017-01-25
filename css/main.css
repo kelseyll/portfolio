@@ -36,6 +36,14 @@ ul {
     padding: 0;
 }
 
+ul ul {
+    padding-left: 75px;
+}
+
+ul ul li {
+    color: #999;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -553,6 +561,15 @@ body .work-items {
 
 .work-items-section ul li:first-child {
     padding: 10px 0;
+}
+
+.work-items-section ul ul li:first-child {
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.work-items-section ul ul li {
+    line-height: 24px;
 }
 
 .work-items-section ul li a i {
