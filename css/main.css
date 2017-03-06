@@ -543,6 +543,10 @@ header {
     margin: 60px 0;
 }
 
+.work-container .row a p:hover {
+    text-decoration: underline;
+}
+
 /* Footer ----------------------------------- */
 
 footer {
