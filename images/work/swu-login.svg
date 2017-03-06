@@ -13,21 +13,21 @@
         <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5889213" fill="white">
             <use xlink:href="#path-4"></use>
         </mask>
-        <path d="M1.13686838e-13,1.74426071 C1.13686838e-13,0.972548333 0.626216643,0.346951848 1.39733136,0.346951848 L354.602669,0.346951848 C355.374393,0.346951848 356,0.972417596 356,1.74426071 L356,478.602691 C356,479.374404 355.373783,480 354.602669,480 L1.39733136,480 C0.62560656,480 1.13686838e-13,479.374534 1.13686838e-13,478.602691 L1.13686838e-13,1.74426071 Z" id="path-6"></path>
-        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="479.653048" fill="white">
+        <rect id="path-6" x="0" y="0" width="224.251969" height="26.5889213" rx="2.1"></rect>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5889213" fill="white">
             <use xlink:href="#path-6"></use>
         </mask>
         <rect id="path-8" x="0" y="0" width="224.251969" height="26.5889213" rx="2.1"></rect>
         <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5889213" fill="white">
             <use xlink:href="#path-8"></use>
         </mask>
-        <rect id="path-10" x="0" y="0" width="224.251969" height="26.5889213" rx="2.1"></rect>
-        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5889213" fill="white">
-            <use xlink:href="#path-10"></use>
+        <rect id="path-10" x="5.68434189e-14" y="0" width="224.952756" height="2.79883382" rx="1.39941691"></rect>
+        <rect id="path-12" x="0" y="0" width="224.251969" height="26.6074951" rx="2.1"></rect>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6074951" fill="white">
+            <use xlink:href="#path-12"></use>
         </mask>
-        <rect id="path-12" x="5.68434189e-14" y="0" width="224.952756" height="2.79883382" rx="1.39941691"></rect>
-        <rect id="path-14" x="7.10542736e-14" y="0.350098619" width="356" height="354.649901" rx="1.4"></rect>
-        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="354.649901" fill="white">
+        <rect id="path-14" x="1.42108547e-14" y="0" width="224.251969" height="26.6074951" rx="2.1"></rect>
+        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6074951" fill="white">
             <use xlink:href="#path-14"></use>
         </mask>
         <rect id="path-16" x="0" y="0" width="224.251969" height="26.6074951" rx="2.1"></rect>
@@ -38,102 +38,54 @@
         <mask id="mask-19" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6074951" fill="white">
             <use xlink:href="#path-18"></use>
         </mask>
-        <rect id="path-20" x="7.10542736e-14" y="0.350098619" width="356" height="354.649901" rx="1.4"></rect>
-        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="354.649901" fill="white">
+        <rect id="path-20" x="0" y="0" width="224.407699" height="26.5889213" rx="2.1"></rect>
+        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.407699" height="26.5889213" fill="white">
             <use xlink:href="#path-20"></use>
         </mask>
-        <rect id="path-22" x="0" y="0" width="224.251969" height="26.6074951" rx="2.1"></rect>
-        <mask id="mask-23" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6074951" fill="white">
+        <rect id="path-22" x="0" y="0" width="91.1656277" height="26.5889213" rx="2.1"></rect>
+        <mask id="mask-23" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="91.1656277" height="26.5889213" fill="white">
             <use xlink:href="#path-22"></use>
         </mask>
-        <rect id="path-24" x="1.42108547e-14" y="0" width="224.251969" height="26.6074951" rx="2.1"></rect>
-        <mask id="mask-25" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6074951" fill="white">
+        <rect id="path-24" x="0" y="0" width="125.528057" height="26.5889213" rx="2.1"></rect>
+        <mask id="mask-25" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="125.528057" height="26.5889213" fill="white">
             <use xlink:href="#path-24"></use>
         </mask>
-        <path d="M1.13686838e-13,1.74426071 C1.13686838e-13,0.972548333 0.626216643,0.346951848 1.39733136,0.346951848 L354.602669,0.346951848 C355.374393,0.346951848 356,0.972417596 356,1.74426071 L356,478.602691 C356,479.374404 355.373783,480 354.602669,480 L1.39733136,480 C0.62560656,480 1.13686838e-13,479.374534 1.13686838e-13,478.602691 L1.13686838e-13,1.74426071 Z" id="path-26"></path>
-        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="479.653048" fill="white">
+        <rect id="path-26" x="0" y="0" width="224.407699" height="26.5889213" rx="2.1"></rect>
+        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.407699" height="26.5889213" fill="white">
             <use xlink:href="#path-26"></use>
         </mask>
-        <rect id="path-28" x="0" y="0" width="224.407699" height="26.5889213" rx="2.1"></rect>
-        <mask id="mask-29" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.407699" height="26.5889213" fill="white">
+        <rect id="path-28" x="2.27373675e-13" y="35.6851312" width="8.41528871" height="8.39650146" rx="2.1"></rect>
+        <mask id="mask-29" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8.41528871" height="8.39650146" fill="white">
             <use xlink:href="#path-28"></use>
         </mask>
-        <rect id="path-30" x="0" y="0" width="91.1656277" height="26.5889213" rx="2.1"></rect>
-        <mask id="mask-31" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="91.1656277" height="26.5889213" fill="white">
-            <use xlink:href="#path-30"></use>
-        </mask>
-        <rect id="path-32" x="0" y="0" width="125.528057" height="26.5889213" rx="2.1"></rect>
-        <mask id="mask-33" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="125.528057" height="26.5889213" fill="white">
+        <rect id="path-30" x="1.13686838e-13" y="0" width="224.952756" height="2.79883382" rx="1.39941691"></rect>
+        <rect id="path-32" x="0" y="0" width="224.251969" height="26.6074951" rx="2.1"></rect>
+        <mask id="mask-33" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6074951" fill="white">
             <use xlink:href="#path-32"></use>
         </mask>
-        <rect id="path-34" x="0" y="0" width="224.407699" height="26.5889213" rx="2.1"></rect>
-        <mask id="mask-35" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.407699" height="26.5889213" fill="white">
+        <rect id="path-34" x="-1.13686838e-12" y="1.40073983" width="8.41528871" height="8.40443896" rx="2.1"></rect>
+        <mask id="mask-35" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8.41528871" height="8.40443896" fill="white">
             <use xlink:href="#path-34"></use>
         </mask>
-        <rect id="path-36" x="2.27373675e-13" y="35.6851312" width="8.41528871" height="8.39650146" rx="2.1"></rect>
-        <mask id="mask-37" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8.41528871" height="8.39650146" fill="white">
+        <rect id="path-36" x="0" y="0" width="224.251969" height="26.6140567" rx="2.1"></rect>
+        <mask id="mask-37" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6140567" fill="white">
             <use xlink:href="#path-36"></use>
         </mask>
-        <rect id="path-38" x="1.13686838e-13" y="0" width="224.952756" height="2.79883382" rx="1.39941691"></rect>
-        <path d="M-8.52651283e-14,1.74463346 C-8.52651283e-14,0.974817593 0.626216643,0.350758531 1.39733136,0.350758531 L354.602669,0.350758531 C355.374393,0.350758531 356,0.968307694 356,1.74463346 L356,300.343972 C356,301.113788 355.373783,301.737847 354.602669,301.737847 L1.39733136,301.737847 C0.62560656,301.737847 -8.52651283e-14,301.120298 -8.52651283e-14,300.343972 L-8.52651283e-14,1.74463346 Z" id="path-40"></path>
-        <mask id="mask-41" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="301.387089" fill="white">
+        <rect id="path-38" x="0" y="0" width="224.251969" height="26.6140567" rx="2.1"></rect>
+        <mask id="mask-39" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6140567" fill="white">
+            <use xlink:href="#path-38"></use>
+        </mask>
+        <rect id="path-40" x="0" y="0" width="224.251969" height="26.6140567" rx="2.1"></rect>
+        <mask id="mask-41" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6140567" fill="white">
             <use xlink:href="#path-40"></use>
         </mask>
-        <path d="M-8.52651283e-14,1.74463346 C-8.52651283e-14,0.974817593 0.626216643,0.350758531 1.39733136,0.350758531 L354.602669,0.350758531 C355.374393,0.350758531 356,0.968307694 356,1.74463346 L356,300.343972 C356,301.113788 355.373783,301.737847 354.602669,301.737847 L1.39733136,301.737847 C0.62560656,301.737847 -8.52651283e-14,301.120298 -8.52651283e-14,300.343972 L-8.52651283e-14,1.74463346 Z" id="path-42"></path>
-        <mask id="mask-43" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="301.387089" fill="white">
+        <rect id="path-42" x="0" y="0" width="224.251969" height="26.5784499" rx="2.1"></rect>
+        <mask id="mask-43" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5784499" fill="white">
             <use xlink:href="#path-42"></use>
         </mask>
-        <path d="M-5.68434189e-14,1.74884103 C-5.68434189e-14,0.976434796 0.626216643,0.350275825 1.39733136,0.350275825 L354.602669,0.350275825 C355.374393,0.350275825 356,0.977151767 356,1.74884103 L356,341.601435 C356,342.373841 355.373783,343 354.602669,343 L1.39733136,343 C0.62560656,343 -5.68434189e-14,342.373124 -5.68434189e-14,341.601435 L-5.68434189e-14,1.74884103 Z" id="path-44"></path>
-        <mask id="mask-45" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="342.649724" fill="white">
+        <rect id="path-44" x="0" y="0" width="224.251969" height="26.5784499" rx="2.1"></rect>
+        <mask id="mask-45" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5784499" fill="white">
             <use xlink:href="#path-44"></use>
-        </mask>
-        <path d="M-5.68434189e-14,1.74884103 C-5.68434189e-14,0.976434796 0.626216643,0.350275825 1.39733136,0.350275825 L354.602669,0.350275825 C355.374393,0.350275825 356,0.977151767 356,1.74884103 L356,341.601435 C356,342.373841 355.373783,343 354.602669,343 L1.39733136,343 C0.62560656,343 -5.68434189e-14,342.373124 -5.68434189e-14,341.601435 L-5.68434189e-14,1.74884103 Z" id="path-46"></path>
-        <mask id="mask-47" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="342.649724" fill="white">
-            <use xlink:href="#path-46"></use>
-        </mask>
-        <path d="M0,1.74213072 C0,0.973332622 0.626216643,0.350098619 1.39733136,0.350098619 L354.602669,0.350098619 C355.374393,0.350098619 356,0.97394039 356,1.74213072 L356,353.607968 C356,354.376766 355.373783,355 354.602669,355 L1.39733136,355 C0.62560656,355 0,354.376158 0,353.607968 L0,1.74213072 Z" id="path-48"></path>
-        <mask id="mask-49" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="354.649901" fill="white">
-            <use xlink:href="#path-48"></use>
-        </mask>
-        <rect id="path-50" x="0" y="0" width="224.251969" height="26.6074951" rx="2.1"></rect>
-        <mask id="mask-51" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6074951" fill="white">
-            <use xlink:href="#path-50"></use>
-        </mask>
-        <path d="M-4.54747351e-13,1.57527269 C-4.54747351e-13,0.797506947 0.626216643,0.167003238 1.39733136,0.167003238 L354.602669,0.167003238 C355.374393,0.167003238 356,0.791772669 356,1.57527269 L356,565.891361 C356,566.669126 355.373783,567.29963 354.602669,567.29963 L1.39733136,567.29963 C0.62560656,567.29963 -4.54747351e-13,566.674861 -4.54747351e-13,565.891361 L-4.54747351e-13,1.57527269 Z" id="path-52"></path>
-        <mask id="mask-53" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="567.132627" fill="white">
-            <use xlink:href="#path-52"></use>
-        </mask>
-        <rect id="path-54" x="-1.13686838e-12" y="1.40073983" width="8.41528871" height="8.40443896" rx="2.1"></rect>
-        <mask id="mask-55" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="8.41528871" height="8.40443896" fill="white">
-            <use xlink:href="#path-54"></use>
-        </mask>
-        <rect id="path-56" x="0" y="0" width="224.251969" height="26.6140567" rx="2.1"></rect>
-        <mask id="mask-57" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6140567" fill="white">
-            <use xlink:href="#path-56"></use>
-        </mask>
-        <rect id="path-58" x="0" y="0" width="224.251969" height="26.6140567" rx="2.1"></rect>
-        <mask id="mask-59" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6140567" fill="white">
-            <use xlink:href="#path-58"></use>
-        </mask>
-        <rect id="path-60" x="0" y="0" width="224.251969" height="26.6140567" rx="2.1"></rect>
-        <mask id="mask-61" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.6140567" fill="white">
-            <use xlink:href="#path-60"></use>
-        </mask>
-        <rect id="path-62" x="2.27373675e-13" y="0.349359785" width="356" height="369.65064" rx="1.4"></rect>
-        <mask id="mask-63" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="356" height="369.65064" fill="white">
-            <use xlink:href="#path-62"></use>
-        </mask>
-        <rect id="path-64" x="0" y="0" width="224.251969" height="26.5784499" rx="2.1"></rect>
-        <mask id="mask-65" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5784499" fill="white">
-            <use xlink:href="#path-64"></use>
-        </mask>
-        <rect id="path-66" x="0" y="0" width="224.251969" height="26.5784499" rx="2.1"></rect>
-        <mask id="mask-67" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="224.251969" height="26.5784499" fill="white">
-            <use xlink:href="#path-66"></use>
-        </mask>
-        <path d="M-4.26325641e-14,1.74810724 C-4.26325641e-14,0.97542967 0.624986354,0.349050736 1.39458611,0.349050736 L353.906003,0.349050736 C354.676212,0.349050736 355.300589,0.975510164 355.300589,1.74810724 L355.300589,437.900307 C355.300589,438.672984 354.675603,439.299363 353.906003,439.299363 L1.39458611,439.299363 C0.624377471,439.299363 -4.26325641e-14,438.672904 -4.26325641e-14,437.900307 L-4.26325641e-14,1.74810724 Z" id="path-68"></path>
-        <mask id="mask-69" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="355.300589" height="438.950312" fill="white">
-            <use xlink:href="#path-68"></use>
         </mask>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -153,15 +105,15 @@
                                 </text>
                                 <polygon id="Shape" fill="#666666" fill-rule="nonzero" points="203.515669 10.4956268 206.732283 13.7002915 209.948898 10.4956268 210.937008 11.4822157 206.732283 15.6804665 202.527559 11.4822157"></polygon>
                             </g>
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-7)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-6"></use>
+                            <path d="M1.13686838e-13,1.74426071 C1.13686838e-13,0.972548333 0.626216643,0.346951848 1.39733136,0.346951848 L354.602669,0.346951848 C355.374393,0.346951848 356,0.972417596 356,1.74426071 L356,478.602691 C356,479.374404 355.373783,480 354.602669,480 L1.39733136,480 C0.62560656,480 1.13686838e-13,479.374534 1.13686838e-13,478.602691 L1.13686838e-13,1.74426071 Z" id="Modal-Base" fill="#FFFFFF"></path>
                             <g id="INPUT-name" transform="translate(65.874016, 157.434402)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-9)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-8"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-7)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-6"></use>
                                 <text id="Name" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.696793">Name</tspan>
                                 </text>
                             </g>
                             <g id="INPUT-email" transform="translate(65.874016, 198.017493)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-11)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-10"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-9)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-8"></use>
                                 <text id="Work-Email" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.696793">Work Email</tspan>
                                 </text>
@@ -180,11 +132,11 @@
                                 <tspan x="210.248276" y="403.635569" fill="#666666" text-decoration="underline">Sign in here </tspan>
                             </text>
                             <g id="PROGRESS-BAR" transform="translate(65.173228, 363.848397)">
-                                <mask id="mask-13" fill="white">
-                                    <use xlink:href="#path-12"></use>
+                                <mask id="mask-11" fill="white">
+                                    <use xlink:href="#path-10"></use>
                                 </mask>
-                                <use id="Rectangle-2" fill="#E6F3FF" transform="translate(112.476378, 1.399417) scale(1, -1) translate(-112.476378, -1.399417) " xlink:href="#path-12"></use>
-                                <rect id="Rectangle-2-Copy" fill="#006FCC" mask="url(#mask-13)" transform="translate(56.238189, 1.399417) scale(1, -1) translate(-56.238189, -1.399417) " x="5.68434189e-14" y="0" width="112.476378" height="2.79883382"></rect>
+                                <use id="Rectangle-2" fill="#E6F3FF" transform="translate(112.476378, 1.399417) scale(1, -1) translate(-112.476378, -1.399417) " xlink:href="#path-10"></use>
+                                <rect id="Rectangle-2-Copy" fill="#006FCC" mask="url(#mask-11)" transform="translate(56.238189, 1.399417) scale(1, -1) translate(-56.238189, -1.399417) " x="5.68434189e-14" y="0" width="112.476378" height="2.79883382"></rect>
                             </g>
                             <text id="Any-else?-Email-us-a" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal">
                                 <tspan x="75.5160837" y="443.51895" fill="#999999">Any else? Email us at </tspan>
@@ -192,12 +144,12 @@
                             </text>
                         </g>
                         <g id="Modal" transform="translate(-0.000000, 332.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-15)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-14"></use>
+                            <rect id="Modal-Base" fill="#FFFFFF" x="7.10542736e-14" y="0.350098619" width="356" height="354.649901" rx="1.4"></rect>
                             <g id="INPUT-email" transform="translate(65.874016, 157.544379)" stroke="#DDDDDD" stroke-width="1.4" fill="#FFFFFF">
-                                <use id="Rectangle" mask="url(#mask-17)" xlink:href="#path-16"></use>
+                                <use id="Rectangle" mask="url(#mask-13)" xlink:href="#path-12"></use>
                             </g>
                             <g id="INPUT-passowrd" transform="translate(65.874016, 198.155819)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-19)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-18"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-15)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-14"></use>
                                 <text id="forgot?" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="181.503937" y="17.4023669">forgot?</tspan>
                                 </text>
@@ -215,15 +167,15 @@
                             </text>
                         </g>
                         <g id="Modal-Copy" transform="translate(386.000000, 842.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-21)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-20"></use>
+                            <rect id="Modal-Base" fill="#FFFFFF" x="7.10542736e-14" y="0.350098619" width="356" height="354.649901" rx="1.4"></rect>
                             <g id="INPUT-email" transform="translate(65.874016, 157.544379)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-23)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-22"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-17)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-16"></use>
                                 <text id="Email" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.7021696">Email</tspan>
                                 </text>
                             </g>
                             <g id="INPUT-passowrd" transform="translate(65.874016, 198.155819)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-25)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-24"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-19)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-18"></use>
                                 <text id="Password" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.7021696">Password</tspan>
                                 </text>
@@ -270,23 +222,23 @@
                             </text>
                         </g>
                         <g id="Modal" transform="translate(772.000000, 332.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-27)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-26"></use>
+                            <path d="M1.13686838e-13,1.74426071 C1.13686838e-13,0.972548333 0.626216643,0.346951848 1.39733136,0.346951848 L354.602669,0.346951848 C355.374393,0.346951848 356,0.972417596 356,1.74426071 L356,478.602691 C356,479.374404 355.373783,480 354.602669,480 L1.39733136,480 C0.62560656,480 1.13686838e-13,479.374534 1.13686838e-13,478.602691 L1.13686838e-13,1.74426071 Z" id="Modal-Base" fill="#FFFFFF"></path>
                             <g id="DROPDOWN-Device-Options" transform="translate(66.146544, 161.632653)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-29)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-28"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-21)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-20"></use>
                                 <text id="Email-Service-Provid" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81783683" y="16.696793">Email Service Provider</tspan>
                                 </text>
                                 <polygon id="Shape" fill="#666666" fill-rule="nonzero" points="207.16337 10.4956268 210.382218 13.7002915 213.601066 10.4956268 214.589862 11.4822157 210.382218 15.6804665 206.174573 11.4822157"></polygon>
                             </g>
                             <g id="DROPDOWN-teamsize" transform="translate(66.146544, 202.215743)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-31)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-30"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-23)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-22"></use>
                                 <polygon id="Shape-Copy" fill="#666666" fill-rule="nonzero" points="75.5444698 10.4956268 78.8655034 13.7002915 82.1865369 10.4956268 83.2067237 11.4822157 78.8655034 15.6804665 74.524283 11.4822157"></polygon>
                                 <text id="Team-Size" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="10.1295142" y="16.696793">Team Size</tspan>
                                 </text>
                             </g>
                             <g id="DROPDOWN-emails" transform="translate(165.026187, 202.215743)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-33)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-32"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-25)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-24"></use>
                                 <polygon id="Shape-Copy" fill="#666666" fill-rule="nonzero" points="108.283728 10.4956268 111.502575 13.7002915 114.721423 10.4956268 115.71022 11.4822157 111.502575 15.6804665 107.294931 11.4822157"></polygon>
                                 <text id="Emails-sent-/-month" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81783683" y="16.696793">Emails sent / month </tspan>
@@ -294,14 +246,14 @@
                             </g>
                             <g id="INPUT-phone" transform="translate(66.146544, 242.798834)">
                                 <g id="phone" transform="translate(0.000000, 0.000000)">
-                                    <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-35)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-34"></use>
+                                    <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-27)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-26"></use>
                                     <text id="Phone-Number" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                         <tspan x="9.81783683" y="16.696793">Phone Number</tspan>
                                     </text>
                                     <text id="Would-you-like-us-to" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                         <tspan x="12.6229331" y="43.2857143">Would you like us to call you?</tspan>
                                     </text>
-                                    <use id="Rectangle-3" stroke="#DDDDDD" mask="url(#mask-37)" stroke-width="1.4" xlink:href="#path-36"></use>
+                                    <use id="Rectangle-3" stroke="#DDDDDD" mask="url(#mask-29)" stroke-width="1.4" xlink:href="#path-28"></use>
                                 </g>
                             </g>
                             <g id="LINK-back" transform="translate(131.047244, 393.935860)" font-size="9.1" font-family="SFUIText-Regular, SF UI Text" text-decoration="underline" fill="#999999" font-weight="normal">
@@ -316,10 +268,10 @@
                                 <rect id="Rectangle-5" stroke="#AACCEE" stroke-width="0.7" x="0.379715349" y="0" width="224.251969" height="26.5889213" rx="1.4"></rect>
                             </g>
                             <g id="PROGRESS-BAR" transform="translate(65.173228, 363.848397)">
-                                <mask id="mask-39" fill="white">
-                                    <use xlink:href="#path-38"></use>
+                                <mask id="mask-31" fill="white">
+                                    <use xlink:href="#path-30"></use>
                                 </mask>
-                                <use id="Rectangle-2" fill="#006FCC" transform="translate(112.476378, 1.399417) scale(1, -1) translate(-112.476378, -1.399417) " xlink:href="#path-38"></use>
+                                <use id="Rectangle-2" fill="#006FCC" transform="translate(112.476378, 1.399417) scale(1, -1) translate(-112.476378, -1.399417) " xlink:href="#path-30"></use>
                             </g>
                             <g id="LOGO-swu" transform="translate(121.236220, 74.169096)" fill-rule="nonzero">
                                 <g id="swu_kit_logo_dark">
@@ -349,7 +301,7 @@
                             </text>
                         </g>
                         <g id="Modal" transform="translate(-0.000000, 720.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-41)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-40"></use>
+                            <path d="M-8.52651283e-14,1.74463346 C-8.52651283e-14,0.974817593 0.626216643,0.350758531 1.39733136,0.350758531 L354.602669,0.350758531 C355.374393,0.350758531 356,0.968307694 356,1.74463346 L356,300.343972 C356,301.113788 355.373783,301.737847 354.602669,301.737847 L1.39733136,301.737847 C0.62560656,301.737847 -8.52651283e-14,301.120298 -8.52651283e-14,300.343972 L-8.52651283e-14,1.74463346 Z" id="Modal-Base" fill="#FFFFFF"></path>
                             <g id="BUTTON-disable" transform="translate(65.173228, 175.467593)">
                                 <text id="Disable-Two-Factor-A" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#AA3535">
                                     <tspan x="37.4367323" y="17.3888889">Disable Two-Factor Authentication</tspan>
@@ -385,10 +337,10 @@
                             </text>
                         </g>
                         <g id="Modal-Copy-3" transform="translate(1158.000000, -0.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-43)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-42"></use>
+                            <path d="M-8.52651283e-14,1.74463346 C-8.52651283e-14,0.974817593 0.626216643,0.350758531 1.39733136,0.350758531 L354.602669,0.350758531 C355.374393,0.350758531 356,0.968307694 356,1.74463346 L356,300.343972 C356,301.113788 355.373783,301.737847 354.602669,301.737847 L1.39733136,301.737847 C0.62560656,301.737847 -8.52651283e-14,301.120298 -8.52651283e-14,300.343972 L-8.52651283e-14,1.74463346 Z" id="Modal-Base" fill="#FFFFFF"></path>
                         </g>
                         <g id="Modal" transform="translate(386.000000, 1228.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-45)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-44"></use>
+                            <path d="M-5.68434189e-14,1.74884103 C-5.68434189e-14,0.976434796 0.626216643,0.350275825 1.39733136,0.350275825 L354.602669,0.350275825 C355.374393,0.350275825 356,0.977151767 356,1.74884103 L356,341.601435 C356,342.373841 355.373783,343 354.602669,343 L1.39733136,343 C0.62560656,343 -5.68434189e-14,342.373124 -5.68434189e-14,341.601435 L-5.68434189e-14,1.74884103 Z" id="Modal-Base" fill="#FFFFFF"></path>
                             <g id="LOGO-swu" transform="translate(121.236220, 60.200000)" fill-rule="nonzero">
                                 <g id="swu_kit_logo_dark">
                                     <g id="Page-1">
@@ -414,12 +366,12 @@
                             </text>
                         </g>
                         <g id="Modal-Copy-2" transform="translate(772.000000, 1228.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-47)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-46"></use>
+                            <path d="M-5.68434189e-14,1.74884103 C-5.68434189e-14,0.976434796 0.626216643,0.350275825 1.39733136,0.350275825 L354.602669,0.350275825 C355.374393,0.350275825 356,0.977151767 356,1.74884103 L356,341.601435 C356,342.373841 355.373783,343 354.602669,343 L1.39733136,343 C0.62560656,343 -5.68434189e-14,342.373124 -5.68434189e-14,341.601435 L-5.68434189e-14,1.74884103 Z" id="Modal-Base" fill="#FFFFFF"></path>
                         </g>
                         <g id="Modal" transform="translate(772.000000, 842.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-49)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-48"></use>
+                            <path d="M0,1.74213072 C0,0.973332622 0.626216643,0.350098619 1.39733136,0.350098619 L354.602669,0.350098619 C355.374393,0.350098619 356,0.97394039 356,1.74213072 L356,353.607968 C356,354.376766 355.373783,355 354.602669,355 L1.39733136,355 C0.62560656,355 0,354.376158 0,353.607968 L0,1.74213072 Z" id="Modal-Base" fill="#FFFFFF"></path>
                             <g id="INPUT-code" transform="translate(65.874016, 152.642998)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-51)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-50"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-33)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-32"></use>
                                 <text id="6-digit-code" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.7021696">6 digit code</tspan>
                                 </text>
@@ -464,7 +416,7 @@
                             </text>
                         </g>
                         <g id="Modal" transform="translate(1158.000000, 332.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-53)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-52"></use>
+                            <path d="M-4.54747351e-13,1.57527269 C-4.54747351e-13,0.797506947 0.626216643,0.167003238 1.39733136,0.167003238 L354.602669,0.167003238 C355.374393,0.167003238 356,0.791772669 356,1.57527269 L356,565.891361 C356,566.669126 355.373783,567.29963 354.602669,567.29963 L1.39733136,567.29963 C0.62560656,567.29963 -4.54747351e-13,566.674861 -4.54747351e-13,565.891361 L-4.54747351e-13,1.57527269 Z" id="Modal-Base" fill="#FFFFFF"></path>
                             <g id="BUTTON-disable" transform="translate(65.173228, 408.315660)">
                                 <text id="Disable-Two-Factor-A" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#AA3535">
                                     <tspan x="37.4367323" y="17.404439">Disable Two-Factor Authentication</tspan>
@@ -481,26 +433,26 @@
                                 <tspan x="100.69635" y="144.156597">you are certain of what you're doing.</tspan>
                             </text>
                             <g id="RADIO-security" transform="translate(68.677165, 359.990136)">
-                                <use id="Rectangle-3" stroke="#DDDDDD" mask="url(#mask-55)" stroke-width="1.4" xlink:href="#path-54"></use>
+                                <use id="Rectangle-3" stroke="#DDDDDD" mask="url(#mask-35)" stroke-width="1.4" xlink:href="#path-34"></use>
                                 <text id="I-understand-that-di" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="15.4173228" y="9">I understand that disabling 2FA will reduce the </tspan>
                                     <tspan x="15.4173228" y="20">security of my account.</tspan>
                                 </text>
                             </g>
                             <g id="INPUT-email" transform="translate(67.275591, 240.927250)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-57)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-56"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-37)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-36"></use>
                                 <text id="Email" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.7040691">Email</tspan>
                                 </text>
                             </g>
                             <g id="INPUT-password" transform="translate(67.275591, 281.548705)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-59)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-58"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-39)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-38"></use>
                                 <text id="Password" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.7040691">Password</tspan>
                                 </text>
                             </g>
                             <g id="INPUT-code" transform="translate(67.275591, 322.170160)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-61)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-60"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-41)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-40"></use>
                                 <text id="6-digit-code" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.7040691">6 digit code</tspan>
                                 </text>
@@ -538,15 +490,15 @@
                             </g>
                         </g>
                         <g id="Modal" transform="translate(1158.000000, 930.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-63)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-62"></use>
+                            <rect id="Modal-Base" fill="#FFFFFF" x="2.27373675e-13" y="0.349359785" width="356" height="369.65064" rx="1.4"></rect>
                             <g id="INPUT-email" transform="translate(65.874016, 178.355388)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-65)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-64"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-43)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-42"></use>
                                 <text id="Email" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.6937618">Email</tspan>
                                 </text>
                             </g>
                             <g id="INPUT-password" transform="translate(65.874016, 218.922495)">
-                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-67)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-66"></use>
+                                <use id="Rectangle" stroke="#DDDDDD" mask="url(#mask-45)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-44"></use>
                                 <text id="Password" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#999999">
                                     <tspan x="9.81102362" y="16.6937618">Password</tspan>
                                 </text>
@@ -585,7 +537,7 @@
                             </g>
                         </g>
                         <g id="Modal" transform="translate(-0.000000, 1052.000000)">
-                            <use id="Modal-Base" stroke="#DDDDDD" mask="url(#mask-69)" stroke-width="1.4" fill="#FFFFFF" xlink:href="#path-68"></use>
+                            <path d="M-4.26325641e-14,1.74810724 C-4.26325641e-14,0.97542967 0.624986354,0.349050736 1.39458611,0.349050736 L353.906003,0.349050736 C354.676212,0.349050736 355.300589,0.975510164 355.300589,1.74810724 L355.300589,437.900307 C355.300589,438.672984 354.675603,439.299363 353.906003,439.299363 L1.39458611,439.299363 C0.624377471,439.299363 -4.26325641e-14,438.672904 -4.26325641e-14,437.900307 L-4.26325641e-14,1.74810724 Z" id="Modal-Base" fill="#FFFFFF"></path>
                             <g id="BUTTON" transform="translate(65.045187, 325.796178)">
                                 <text id="Enable-Two-Factor-Au" font-family="SFUIText-Regular, SF UI Text" font-size="9.1" font-weight="normal" fill="#35AA47">
                                     <tspan x="38.7620039" y="17.4076433">Enable Two-Factor Authentication</tspan>
