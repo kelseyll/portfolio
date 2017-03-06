@@ -72,7 +72,7 @@ i {
     height: 60%;
     top: 60%;
     left: 0;
-    background-color: #FFE2FF;
+    background-color: #F7F7F7;
     z-index: -1;
 }
 
@@ -80,12 +80,12 @@ i {
     height: 30%;
     top: 50%;
     width: 70%;
-    background-color: #ECF0FF;
+    background-color: #f7f7f7;
 }
 
 .link-underline:hover:before,
 .link-underline-list li a:hover:before {
-    background: #f7f7f7;
+    background: #fff;
 }
 
 .hero-container h1 {
@@ -637,7 +637,8 @@ footer li {
 }
 
 @media (min-width: 1000px) {
-    .footer-text-container {
+    .footer-text-container,
+    .work-container {
         padding: 40px 20px;
     }
 }
