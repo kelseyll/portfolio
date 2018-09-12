@@ -4,7 +4,6 @@ $( document ).ready(function() {
     var bgMusic = new buzz.sound("sound/kmart2_audition", {
         formats: [ "mp3" ],
         preload: true,
-        autoplay: true,
         loop: true,
         volume: 40
     });
