@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="568px" height="568px" viewBox="0 0 568 568" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>synergy-planet@2x</title>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#AFF7FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="2020-update" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-IntVentures" transform="translate(-887.000000, -255.000000)">
+            <g id="synergy-planet" transform="translate(887.000000, 255.000000)">
+                <circle id="Oval" fill="url(#radialGradient-1)" cx="284" cy="284" r="284"></circle>
+                <circle id="Oval" stroke="#112E47" stroke-width="2" fill="#012F49" cx="286" cy="285" r="37"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
