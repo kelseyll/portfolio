@@ -72,14 +72,14 @@ a:hover {
 
 .tldr-container {
     animation: fadeIn 1.5s forwards;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
     padding: 0 70px;
 }
 
 .tldr {
-    max-width: 500px;
+    max-width: 420px;
     line-height: 24px;
     font-size: 16px;
     text-align: left;
@@ -124,11 +124,9 @@ footer li {
 }
 
 .footer-text-container ul a {
-    /* max-width: 180px; */
     text-align: left;
     padding: 10px 0;
     margin: auto;
-    /* width: 107px; */
 }
 
 @media (min-width: 550px) {
