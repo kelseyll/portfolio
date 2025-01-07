@@ -89,18 +89,15 @@ a:hover {
     .emoji {
         display: none;
     }
-}
-@media (max-width: 400px) {
-    .tldr {
-        font-size: 18px;
-        line-height: 26px;
+    .tldr-container {
+        margin-top: 70px;
+        padding: 0 20px;
     }
 }
 @media (max-width: 275px) {
     .tldr {
         font-size: 14px;
         line-height: 20px;
-        padding: 0px 20px 0 20px;
     }
 }
 
